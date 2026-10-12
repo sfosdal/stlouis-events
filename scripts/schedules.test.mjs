@@ -441,3 +441,9 @@ test('htRegular: a HockeyTech season named "Regular Season" or by its years alon
   assert.ok(htRegular({ name: '2026-27 Regular Season' })); assert.ok(htRegular({ name: '2026-27' }));
   assert.ok(!htRegular({ name: '2026-27 Playoffs' })); assert.ok(!htRegular({ name: '2026 Preseason' }));
 });
+
+test('ESPN: a 23:59 Eastern clock with timeValid still true is a placeholder too — TBD, on ESPN\'s Eastern day', () => {
+  const [g] = normalizeEspn({ events: [{ date: '2026-11-03T04:59Z', competitions: [{ venue: { fullName: 'Stan Sheriff Center' }, timeValid: true, status: { type: { detail: 'Mon, November 2nd at 11:59 PM EST' } },
+    competitors: [{ team: { id: '62' }, homeAway: 'home' }, { team: { id: '2567', displayName: 'Seattle U Redhawks' }, homeAway: 'away' }] }] }] }, '62');
+  assert.equal(g.date, '2026-11-02'); assert.equal(g.time, null); assert.equal(g.tbd, true);
+});

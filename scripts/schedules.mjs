@@ -22,6 +22,7 @@ import { readFileSync } from 'node:fs';
 const UA = CITY.userAgent;
 const TZ = CITY.tz || 'America/Los_Angeles'; // the city's zone — game clocks are the home city's wall time (named for Seattle; chicago-events made it the city's, 2026-10-11)
 const seattleDate = (iso) => new Date(iso).toLocaleDateString('en-CA', { timeZone: TZ });
+const easternTime = (iso) => new Date(iso).toLocaleTimeString('en-GB', { timeZone: 'America/New_York', hourCycle: 'h23', hour: '2-digit', minute: '2-digit' }); // ESPN's other placeholder for a tip-off not yet set: 23:59 Eastern with timeValid still true (college basketball; Honolulu's 6:59 PM clocks, 2026-10-11)
 const easternDate = (iso) => new Date(iso).toLocaleDateString('en-CA', { timeZone: 'America/New_York' }); // ESPN files a kickoff it doesn't know yet (timeValid:false) at midnight Eastern: the day is that one, not the city's, which lands the night before west of there (Pullman's Cougars on Nov 27 beside the listing's Nov 28, 2026-10-11)
 const seattleTime = (iso) => new Date(iso).toLocaleTimeString('en-GB', { timeZone: TZ, hourCycle: 'h23', hour: '2-digit', minute: '2-digit', second: '2-digit' });
 export const htRegular = (x) => /regular season/i.test(x.name) || /^\d{4}-\d{2}$/.test(String(x.name).trim()); // the USHL names its regular seasons by the years alone ("2026-27"; Green Bay's Gamblers, 2026-10-11)
@@ -163,13 +164,14 @@ export function normalizeEspn(d, teamId, keepWeek, forcePre) { // forcePre: the 
     const home = us.homeAway === 'home';
     const o = (c.competitors.find((t) => t !== us) || {}).team || {};
     const detail = c.status?.type?.detail || '';
-    const tbd = c.timeValid === false || /\bTB[AD]\b/i.test(detail);
+    const placeholder = c.timeValid === false || easternTime(e.date) === '23:59'; // ESPN's two ways of saying the clock is not set yet
+    const tbd = placeholder || /\bTB[AD]\b/i.test(detail);
     const them = c.competitors.find((t) => t !== us);
     const score = (t) => { const v = t?.score?.displayValue ?? t?.score?.value ?? t?.score; return v == null || v === '' ? null : Number(v); };
     const final = !!c.status?.type?.completed && score(us) != null && score(them) != null;
     // broadcasts: [{ type: { shortName: 'TV' }, market: { type: 'National' | 'Home' }, media: { shortName } }]
     out.push(withResult(withWatch({
-      date: c.timeValid === false ? easternDate(e.date) : seattleDate(e.date), time: tbd ? null : seattleTime(e.date), tbd, home,
+      date: placeholder ? easternDate(e.date) : seattleDate(e.date), time: tbd ? null : seattleTime(e.date), tbd, home,
       ...(e.season?.type === 3 ? { playoff: true } : forcePre || e.season?.type === 1 ? { pre: true } : {}),
       ...(keepWeek && e.week?.number != null && e.season?.year ? { week: e.week.number, season: e.season.year } : {}),
       opp: { name: o.displayName, short: o.shortDisplayName || o.displayName, abbrev: o.abbreviation,
