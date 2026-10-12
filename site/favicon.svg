@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#1b2733"/>
+  <!-- the Gateway Arch: a stainless catenary, legs widening towards the ground, over the river's line -->
+  <path d="M6.5 25.5 C6.5 20.5, 9 7, 16 7 C23 7, 25.5 20.5, 25.5 25.5 L22.5 25.5 C22.5 20.5, 20.5 9.6, 16 9.6 C11.5 9.6, 9.5 20.5, 9.5 25.5 Z" fill="#d6dbe2"/>
+  <rect x="4" y="27" width="24" height="1.5" rx=".75" fill="#41a6c8"/>
+</svg>

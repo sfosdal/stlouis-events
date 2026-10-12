@@ -1,0 +1,9 @@
+{
+  "_": "Off-season blurbs for the Teams view's form block (app.js renderTeamForm): shown before a season starts and once one is well over. Plain text, one per team slug. Edit freely — nothing generates this file.",
+  "blues": "The Blues' season runs October to April at Enterprise Center, 41 home dates, with the playoffs beyond that for the top eight in the Western Conference.",
+  "cardinals": "Spring training opens in Jupiter in February and the regular season in late March at Busch Stadium; the schedule above fills in once MLB publishes it.",
+  "citysc": "CITY SC's MLS season runs late February to October at Energizer Park, 17 home matches, with the Cup playoffs through early December.",
+  "battlehawks": "The Battlehawks' UFL season runs late March to June at the Dome, five home dates, with the playoffs and the championship game in mid-June; the schedule arrives over the winter.",
+  "billikens": "The Billikens' season runs November to March at Chaifetz Arena, with the Atlantic 10 tournament and the NCAA tournament beyond that; the schedule fills in once ESPN turns to the regular season.",
+  "mizzou": "Mizzou's season runs late August to November at Faurot Field in Columbia, with the SEC Championship and the bowls or the College Football Playoff beyond that."
+}

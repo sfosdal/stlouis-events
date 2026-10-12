@@ -1,0 +1,192 @@
+{
+ "_": "Each club's postseason for the season in hand — the rounds, their dates and the final's site — shown in the Teams view as 'if they qualify' until the real games arrive (the schedules flag those playoff: true, and a round with a real game in its window gives way to it). Hand-kept: update each season from the leagues' announcements. tbd: true marks a round whose dates are the usual calendar, not yet announced. Drafted 2026-10-11; the MLB rounds are the league's published 2026 dates, the rest the usual calendar.",
+ "blues": {
+  "season": "2026–27",
+  "rounds": [
+   {
+    "name": "Stanley Cup Playoffs, first round",
+    "start": "2027-04-12",
+    "end": "2027-04-30",
+    "tbd": true
+   },
+   {
+    "name": "Second round",
+    "start": "2027-05-01",
+    "end": "2027-05-15",
+    "tbd": true
+   },
+   {
+    "name": "Conference Final",
+    "start": "2027-05-16",
+    "end": "2027-06-01",
+    "tbd": true
+   },
+   {
+    "name": "Stanley Cup Final",
+    "start": "2027-06-03",
+    "end": "2027-06-20",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "cardinals": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "Wild Card Series",
+    "start": "2026-09-29",
+    "end": "2026-10-01"
+   },
+   {
+    "name": "Division Series",
+    "start": "2026-10-03",
+    "end": "2026-10-10"
+   },
+   {
+    "name": "NLCS",
+    "start": "2026-10-12",
+    "end": "2026-10-20"
+   },
+   {
+    "name": "World Series",
+    "start": "2026-10-23",
+    "end": "2026-10-31",
+    "final": true
+   }
+  ]
+ },
+ "citysc": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "Wild Card",
+    "start": "2026-10-21",
+    "end": "2026-10-22",
+    "tbd": true
+   },
+   {
+    "name": "Round One",
+    "start": "2026-10-24",
+    "end": "2026-11-08",
+    "tbd": true
+   },
+   {
+    "name": "Conference Semifinals",
+    "start": "2026-11-21",
+    "end": "2026-11-22",
+    "tbd": true
+   },
+   {
+    "name": "Conference Finals",
+    "start": "2026-11-28",
+    "end": "2026-11-29",
+    "tbd": true
+   },
+   {
+    "name": "MLS Cup",
+    "start": "2026-12-05",
+    "end": "2026-12-05",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "battlehawks": {
+  "season": "2027",
+  "rounds": [
+   {
+    "name": "UFL Conference Championships",
+    "start": "2027-06-06",
+    "end": "2027-06-07",
+    "tbd": true
+   },
+   {
+    "name": "UFL Championship Game",
+    "start": "2027-06-13",
+    "end": "2027-06-13",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "billikens": {
+  "season": "2026–27",
+  "rounds": [
+   {
+    "name": "Atlantic 10 Tournament",
+    "start": "2027-03-09",
+    "end": "2027-03-14",
+    "tbd": true
+   },
+   {
+    "name": "NCAA Tournament, first round",
+    "start": "2027-03-18",
+    "end": "2027-03-19",
+    "tbd": true
+   },
+   {
+    "name": "Second round",
+    "start": "2027-03-20",
+    "end": "2027-03-21",
+    "tbd": true
+   },
+   {
+    "name": "Sweet Sixteen",
+    "start": "2027-03-25",
+    "end": "2027-03-26",
+    "tbd": true
+   },
+   {
+    "name": "Elite Eight",
+    "start": "2027-03-27",
+    "end": "2027-03-28",
+    "tbd": true
+   },
+   {
+    "name": "Final Four",
+    "start": "2027-04-03",
+    "end": "2027-04-05",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ },
+ "mizzou": {
+  "season": "2026",
+  "rounds": [
+   {
+    "name": "SEC Championship Game",
+    "start": "2026-12-05",
+    "end": "2026-12-05",
+    "site": "Mercedes-Benz Stadium, Atlanta",
+    "tbd": true
+   },
+   {
+    "name": "College Football Playoff, first round",
+    "start": "2026-12-19",
+    "end": "2026-12-20",
+    "tbd": true
+   },
+   {
+    "name": "Quarterfinals",
+    "start": "2026-12-31",
+    "end": "2027-01-01",
+    "tbd": true
+   },
+   {
+    "name": "Semifinals",
+    "start": "2027-01-08",
+    "end": "2027-01-09",
+    "tbd": true
+   },
+   {
+    "name": "National Championship",
+    "start": "2027-01-25",
+    "end": "2027-01-25",
+    "tbd": true,
+    "final": true
+   }
+  ]
+ }
+}
