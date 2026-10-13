@@ -134,6 +134,29 @@
    "time": "19:30:00",
    "url": "https://www.ticketmaster.com/robin-trower-saint-louis-missouri-10-11-2026/event/210064A19DB83E22",
    "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Suki Waterhouse: The Loveland Tour",
+   "date": "2026-10-12",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/suki-waterhouse-the-loveland-tour-saint-louis-missouri-10-12-2026/event/060064974DE7208C",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Stanley Simmons",
+   "date": "2026-10-12",
+   "time": "20:00:00",
+   "url": "http://blueberryhill.com"
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "Stryper",
+   "date": "2026-10-12",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/stryper-the-hawthorn-tickets/14829173",
+   "type": "concert"
   }
  ]
 }
