@@ -157,6 +157,22 @@
    "time": "20:00:00",
    "url": "https://www.ticketweb.com/event/stryper-the-hawthorn-tickets/14829173",
    "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "INOHA - This Might Be Useful Tour",
+   "date": "2026-10-13",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/inoha-this-might-be-useful-tour-saint-louis-missouri-10-13-2026/event/060064D1D41A3DC5",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Interpol - North America Tour 2026",
+   "date": "2026-10-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/interpol-north-america-tour-2026-saint-louis-missouri-10-13-2026/event/2100649DD22963BA",
+   "type": "concert"
   }
  ]
 }
