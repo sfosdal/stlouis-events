@@ -173,6 +173,38 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/interpol-north-america-tour-2026-saint-louis-missouri-10-13-2026/event/2100649DD22963BA",
    "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Taste of Chaos Tour",
+   "date": "2026-10-14",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/taste-of-chaos-tour-saint-louis-missouri-10-14-2026/event/210064BBF8694692",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Skillet: Comatose 20 Years, Still Screaming Tour",
+   "date": "2026-10-14",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/skillet-comatose-20-years-still-screaming-saint-louis-missouri-10-14-2026/event/060064CFE2661A18",
+   "type": "concert"
+  },
+  {
+   "venue": "Energizer Park",
+   "title": "St. Louis City SC vs. Vancouver Whitecaps FC",
+   "date": "2026-10-14",
+   "time": "19:30:00",
+   "url": "https://www.energizerpark.com/",
+   "type": "sports"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Willow Avalon - Pink Pocket Pistol Tour",
+   "date": "2026-10-14",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/willow-avalon-pink-pocket-pistol-tour-saint-louis-missouri-10-14-2026/event/06006495BA7351E4",
+   "type": "concert"
   }
  ]
 }
