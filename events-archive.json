@@ -205,6 +205,46 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/willow-avalon-pink-pocket-pistol-tour-saint-louis-missouri-10-14-2026/event/06006495BA7351E4",
    "type": "concert"
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "Saint Louis Billikens Women's Basketball vs. University of Missouri-Kansas City Womens Basketball",
+   "date": "2026-10-15",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/saint-louis-billikens-womens-basketball-vs-saint-louis-missouri-10-15-2026/event/0600654C3D790CC5",
+   "type": "sports"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "St. Louis County Library Foundation Presents D.L. Hughley",
+   "date": "2026-10-15",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/st-louis-county-library-foundation-presents-saint-louis-missouri-10-15-2026/event/06006513B6E9CE0A",
+   "type": "arts"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Death Becomes Her (Touring)",
+   "date": "2026-10-15",
+   "time": "19:30:00",
+   "url": "https://www.fabulousfox.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Black Country, New Road",
+   "date": "2026-10-15",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/black-country-new-road-saint-louis-missouri-10-15-2026/event/0600648EB83ACB4C",
+   "type": "concert"
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "Michael Franti Trio - Heartstrings & Dynamite",
+   "date": "2026-10-15",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/michael-franti-trio-the-hawthorn-tickets/14259954",
+   "type": "concert"
   }
  ]
 }
