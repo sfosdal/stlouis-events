@@ -245,6 +245,47 @@
    "time": "20:00:00",
    "url": "https://www.ticketweb.com/event/michael-franti-trio-the-hawthorn-tickets/14259954",
    "type": "concert"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "Mariachi El Bronx",
+   "date": "2026-10-16",
+   "time": "18:30:00",
+   "url": "https://redflagstl.com/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Ole 60",
+   "date": "2026-10-16",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/ole-60-saint-louis-missouri-10-16-2026/event/210064ACD4C2386A",
+   "type": "concert"
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "Nurse John: Against Medical Advice Tour",
+   "date": "2026-10-16",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/nurse-john-against-medical-advice-tour-saint-louis-missouri-10-16-2026/event/060064A4D79750BB",
+   "type": "arts"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Zack Fox",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/zack-fox-saint-louis-missouri-10-16-2026/event/06006505A0ABA35F",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Slow Pulp",
+   "date": "2026-10-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/slow-pulp-saint-louis-missouri-10-16-2026/event/060064A49513A158",
+   "type": "concert"
   }
  ]
 }
