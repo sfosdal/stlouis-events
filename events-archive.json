@@ -286,6 +286,67 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/slow-pulp-saint-louis-missouri-10-16-2026/event/060064A49513A158",
    "type": "concert"
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "BXC Night of Champions V",
+   "date": "2026-10-17",
+   "time": "16:00:00",
+   "url": "https://www.ticketmaster.com/bxc-night-of-champions-v-saint-louis-missouri-10-17-2026/event/06006504A3AFA888",
+   "type": "sports"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Mastodon",
+   "date": "2026-10-17",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/mastodon-saint-louis-missouri-10-17-2026/event/060064BABB84A4AD",
+   "type": "concert"
+  },
+  {
+   "venue": "Family Arena",
+   "title": "KPop Princesses: A Tribute to Demon Hunters",
+   "date": "2026-10-17",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/kpop-princesses-a-tribute-to-demon-saint-charles-missouri-10-17-2026/event/060064DAECF9FA02",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Deorro Feat Banda Artilleros & JUOS",
+   "date": "2026-10-17",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/deorro-feat-banda-artilleros-juos-saint-louis-missouri-10-17-2026/event/21006518E505853D",
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-16T08:33:49.766Z"
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "STING 3.0 Tour",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/sting-30-tour-saint-louis-missouri-10-17-2026/event/0600645810B7EF1D",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Greek Fire",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/greek-fire-saint-louis-missouri-10-17-2026/event/0600651496CD8741",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Zack Fox",
+   "date": "2026-10-17",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/zack-fox-saint-louis-missouri-10-17-2026/event/210064BCCFF13D4F",
+   "age21": true,
+   "type": "concert",
+   "status": "cancelled",
+   "statusSince": "2026-10-12T01:47:14.047Z"
   }
  ]
 }
