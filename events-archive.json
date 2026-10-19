@@ -347,6 +347,38 @@
    "type": "concert",
    "status": "cancelled",
    "statusSince": "2026-10-12T01:47:14.047Z"
+  },
+  {
+   "venue": "Family Arena",
+   "title": "Gutfeld Live '26 Featuring Greg Gutfeld, Tom Shillue and Jeff Dye",
+   "date": "2026-10-18",
+   "time": "14:00:00",
+   "url": "https://www.ticketmaster.com/gutfeld-live-26-featuring-greg-gutfeld-saint-charles-missouri-10-18-2026/event/06006350E6ACEBF7",
+   "type": "arts"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Sleeping With Sirens: An Ending In Itself Tour",
+   "date": "2026-10-18",
+   "time": "18:40:00",
+   "url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-saint-louis-missouri-10-18-2026/event/060064CAA24DC089",
+   "type": "concert"
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "Leanne Morgan: The Time Of Our Lives Tour",
+   "date": "2026-10-18",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/leanne-morgan-the-time-of-our-saint-louis-missouri-10-18-2026/event/060064A7BAA61EBE",
+   "type": "arts"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Sonic Live in Concert",
+   "date": "2026-10-18",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/sonic-live-in-concert-saint-louis-missouri-10-18-2026/event/210064B5788518DE",
+   "type": "arts"
   }
  ]
 }
