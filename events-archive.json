@@ -417,6 +417,46 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/sunn-o-saint-louis-missouri-10-20-2026/event/060064EDA4258DF2",
    "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Knocked Loose & Denzel Curry",
+   "date": "2026-10-21",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-saint-louis-missouri-10-21-2026/event/210064B9D03B3826",
+   "type": "concert"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "RUSH: Fifty Something",
+   "date": "2026-10-21",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/rush-fifty-something-saint-louis-missouri-10-21-2026/event/0600651BA1BD615E",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Failure with special guests Quannnic - The Rising Skyline Tour",
+   "date": "2026-10-21",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/failure-with-special-guests-quannnic-the-saint-louis-missouri-10-21-2026/event/06006493B973A3F7",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Michigander",
+   "date": "2026-10-21",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/michigander-off-broadway-tickets/14899583",
+   "type": "concert"
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "Sueco",
+   "date": "2026-10-21",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/sueco-the-hawthorn-tickets/14251604",
+   "type": "concert"
   }
  ]
 }
