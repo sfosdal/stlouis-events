@@ -457,6 +457,53 @@
    "time": "20:00:00",
    "url": "https://www.ticketweb.com/event/sueco-the-hawthorn-tickets/14251604",
    "type": "concert"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "St. Louis Blues vs. Vegas Golden Knights",
+   "date": "2026-10-22",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/st-louis-blues-vs-vegas-golden-saint-louis-missouri-10-22-2026/event/060064EECDF61B0A",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "STLNHL",
+     "BN+",
+     "ABC32"
+    ]
+   }
+  },
+  {
+   "venue": "Family Arena",
+   "title": "Parkway School District All-District Choir Concert",
+   "date": "2026-10-22",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/parkway-school-district-alldistrict-choir-concert-saint-charles-missouri-10-22-2026/event/06006522CF2BD35C",
+   "type": "arts"
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "Woman Evolve Presents The Rogue Route with Sarah Jakes Roberts",
+   "date": "2026-10-22",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/woman-evolve-presents-the-rogue-route-saint-louis-missouri-10-22-2026/event/0600650A21E15BAF",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "AFI",
+   "date": "2026-10-22",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/afi-saint-louis-missouri-10-22-2026/event/0600649DC19D5869",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Shawn James \"Flew Too Close To The Sun Tour\"",
+   "date": "2026-10-22",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/shawn-james-flew-too-close-to-saint-louis-missouri-10-22-2026/event/060064D18CD66CAD",
+   "type": "concert"
   }
  ]
 }
