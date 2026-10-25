@@ -583,6 +583,113 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/beat-belewvailevinbozzio-performing-the-music-of-saint-charles-missouri-10-23-2026/event/060064FE19EC8F45",
    "type": "concert"
+  },
+  {
+   "venue": "The Dome at America's Center",
+   "title": "Bands Of America - Saturday Prelims",
+   "date": "2026-10-24",
+   "time": "07:15:00",
+   "url": "https://www.ticketmaster.com/bands-of-america-saturday-prelims-saint-louis-missouri-10-24-2026/event/060064CAB000DD1D"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "St. Louis Blues vs. Carolina Hurricanes",
+   "date": "2026-10-24",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/st-louis-blues-vs-carolina-hurricanes-saint-louis-missouri-10-24-2026/event/060064EECDFC1B17",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "STLNHL",
+     "BN+"
+    ]
+   }
+  },
+  {
+   "venue": "The Dome at America's Center",
+   "title": "Bands Of America - Saturday Finals Reserved",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/bands-of-america-saturday-finals-reserved-saint-louis-missouri-10-24-2026/event/060064CAB501E762"
+  },
+  {
+   "venue": "The Dome at America's Center",
+   "title": "Bands Of America - Saturday Finals General Admission",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/bands-of-america-saturday-finals-general-saint-louis-missouri-10-24-2026/event/060064CAB237E25F"
+  },
+  {
+   "venue": "Hollywood Casino Amphitheatre",
+   "title": "Dan + Shay: The Young Tour",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/dan-shay-the-young-tour-maryland-heights-missouri-10-24-2026/event/060064ADBB8A3BC6",
+   "type": "concert"
+  },
+  {
+   "venue": "Family Arena",
+   "title": "Sometimes A Fantasy: A Tribute to Billy Joel with Beyond the Mania",
+   "date": "2026-10-24",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/sometimes-a-fantasy-a-tribute-to-saint-charles-missouri-10-24-2026/event/0600652303DD6192",
+   "type": "concert"
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "Show Me Fest PT.2",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/show-me-fest-pt2-saint-louis-missouri-10-24-2026/event/060065148E877158",
+   "type": "concert"
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "Outlander in Concert",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/outlander-in-concert-saint-louis-missouri-10-24-2026/event/0600647197CD9F06",
+   "age21": true,
+   "type": "movie"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Ludo",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/ludo-saint-louis-missouri-10-24-2026/event/060064B8CE5A9D8E",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Halludoween 2026 Hoodie",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/halludoween-2026-hoodie-saint-louis-missouri-10-24-2026/event/060064B8DA6EAA84"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "HalLUDOween - Comp Ticket",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/halludoween-comp-ticket-saint-louis-missouri-10-24-2026/event/060064C28EE15DE8",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "The Dip",
+   "date": "2026-10-24",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/the-dip-saint-louis-missouri-10-24-2026/event/060064D8818C444C",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Emo Nite - 21+",
+   "date": "2026-10-24",
+   "time": "21:45:00",
+   "url": "https://offbroadwaystl.com/",
+   "type": "concert"
   }
  ]
 }
