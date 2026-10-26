@@ -103,6 +103,7 @@
   var VENUES = {
     // --- Downtown and the stadiums: the arena, the ballpark, the soccer ground, the Dome, the big theatres ---
     'Enterprise Center': {
+      geo: [38.62643, -90.20262],
       capacity: 18096,
       type: 'sports',
       cssVar: '--v-enterprise',
@@ -113,6 +114,7 @@
       alias: /enterprise center|scottrade center/i,
     },
     'Busch Stadium': {
+      geo: [38.62398, -90.19405],
       capacity: 44383,
       type: 'sports',
       cssVar: '--v-busch',
@@ -123,6 +125,7 @@
       alias: /busch stadium/i,
     },
     'Energizer Park': {
+      geo: [38.6312, -90.2105],
       capacity: 22500,
       type: 'sports',
       cssVar: '--v-energizer',
@@ -133,6 +136,7 @@
       alias: /energizer park|citypark|city park stadium/i,
     },
     "The Dome at America's Center": {
+      geo: [38.6308, -90.19149],
       capacity: 67000,
       type: 'sports',
       cssVar: '--v-dome',
@@ -143,6 +147,7 @@
       alias: /the dome at america|edward jones dome|^the dome$/i,
     },
     'Chaifetz Arena': {
+      geo: [38.63296, -90.22667],
       capacity: 10600,
       type: 'concert',
       cssVar: '--v-chaifetz',
@@ -153,6 +158,7 @@
       alias: /chaifetz/i,
     },
     'Fabulous Fox Theatre': {
+      geo: [38.639, -90.23213],
       capacity: 4500,
       type: 'arts',
       cssVar: '--v-fox',
@@ -163,6 +169,7 @@
       alias: /fabulous fox|fox theatre/i,
     },
     'Stifel Theatre': {
+      geo: [38.62808, -90.20123],
       capacity: 3100,
       type: 'concert',
       cssVar: '--v-stifel',
@@ -173,6 +180,7 @@
       alias: /stifel theat|peabody opera house/i,
     },
     'The Sheldon': {
+      geo: [38.63995, -90.23328],
       capacity: 700,
       type: 'arts',
       cssVar: '--v-sheldon',
@@ -184,6 +192,7 @@
     },
     // --- Music rooms and the suburbs (`area: 'town'`): the Loop and Grand Center rooms, the south city clubs, then Maryland Heights, Chesterfield and St. Charles ---
     'The Pageant': {
+      geo: [38.65562, -90.29791],
       area: 'town',
       capacity: 2300,
       type: 'concert',
@@ -195,6 +204,7 @@
       alias: /the pageant/i,
     },
     'Delmar Hall': {
+      geo: [38.65553, -90.29719],
       area: 'town',
       capacity: 750,
       type: 'concert',
@@ -206,6 +216,7 @@
       alias: /delmar hall/i,
     },
     'The Factory': {
+      geo: [38.67209, -90.59321],
       area: 'town',
       capacity: 3000,
       type: 'concert',
@@ -217,6 +228,7 @@
       alias: /^the factory\b/i,
     },
     'Hollywood Casino Amphitheatre': {
+      geo: [38.74564, -90.46996],
       area: 'town',
       capacity: 20000,
       type: 'concert',
@@ -228,6 +240,7 @@
       alias: /hollywood casino amphitheat|riverport/i,
     },
     'Chesterfield Amphitheater': {
+      geo: [38.65366, -90.57232],
       area: 'town',
       capacity: 4000,
       type: 'concert',
@@ -239,6 +252,7 @@
       alias: /chesterfield amphitheat/i,
     },
     'Old Rock House': {
+      geo: [38.61529, -90.19651],
       area: 'town',
       capacity: 400,
       type: 'concert',
@@ -250,6 +264,7 @@
       alias: /old rock house/i,
     },
     'Blueberry Hill Duck Room': {
+      geo: [38.65594, -90.30497],
       area: 'town',
       capacity: 340,
       type: 'concert',
@@ -261,6 +276,7 @@
       alias: /duck room|blueberry hill/i,
     },
     'Off Broadway': {
+      geo: [38.59034, -90.21935],
       area: 'town',
       capacity: 400,
       type: 'concert',
@@ -272,6 +288,7 @@
       alias: /^off broadway\b/i,
     },
     'The Hawthorn': {
+      geo: [38.63518, -90.21157],
       area: 'town',
       capacity: 750,
       type: 'concert',
@@ -283,6 +300,7 @@
       alias: /the hawthorn\b/i,
     },
     'Red Flag': {
+      geo: [38.63585, -90.22331],
       area: 'town',
       capacity: 800,
       type: 'concert',
@@ -294,6 +312,7 @@
       alias: /^red flag\b/i,
     },
     'River City Casino': {
+      geo: [38.53549, -90.2658],
       area: 'town',
       capacity: 1600,
       type: 'concert',
@@ -305,6 +324,7 @@
       alias: /river city casino/i,
     },
     'Family Arena': {
+      geo: [38.74777, -90.50925],
       area: 'town',
       capacity: 11000,
       type: 'concert',
@@ -366,6 +386,18 @@
     ics: { name: 'St. Louis Events', short: 'St. Louis Events', teams: 'St. Louis home teams — every season', prodid: '-//here.events//stlouis-events//EN', uidDomain: 'fosdal.net', // the UID domain the whole family issues (the shared ics test pins it)
       desc: 'Upcoming events around St. Louis\\, MO — Enterprise Center\\, Busch Stadium\\, Energizer Park\\, the Fox and the music rooms' },
     teams: TEAMS,
+    map: { // the Map view (local-map.js; the ground drawn once by scripts/build-local-map.mjs from OpenStreetMap, committed as site/local-map.json) — every city gets one, Steve, 2026-10-26
+      kind: 'urban',
+      bbox: [38.504, -90.653, 38.78, -90.131], // south, west, north, east — every room, with a margin
+      home: [38.617, -90.244, 38.647, -90.181], // the view at first: the city's own rooms; the fit button shows the whole frame
+      roads: ['motorway', 'trunk', 'primary'],
+      tolerance: 0.6,
+      labels: [
+        { name: 'St. Louis', lat: 38.627, lon: -90.199, anchor: 'middle' },
+        { name: 'Maryland Heights', lat: 38.71505, lon: -90.436, anchor: 'middle' },
+        { name: 'Chesterfield', lat: 38.65818, lon: -90.56806, anchor: 'middle' },
+      ],
+    },
     venues: VENUES,
     defaultOn: DEFAULT_ON,
     defaultOff: DEFAULT_OFF,
