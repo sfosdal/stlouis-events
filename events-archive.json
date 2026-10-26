@@ -690,6 +690,45 @@
    "time": "21:45:00",
    "url": "https://offbroadwaystl.com/",
    "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Ludo",
+   "date": "2026-10-25",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/ludo-saint-louis-missouri-10-25-2026/event/060064B8CE5D9DA2",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Halludoween 2026 Hoodie",
+   "date": "2026-10-25",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/halludoween-2026-hoodie-saint-louis-missouri-10-25-2026/event/060064B8DA73AA8F"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "HalLUDOween - Comp Ticket",
+   "date": "2026-10-25",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/halludoween-comp-ticket-saint-louis-missouri-10-25-2026/event/060064C28FEB6037",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "The Concert: A Tribute To ABBA",
+   "date": "2026-10-25",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-concert-a-tribute-to-abba-saint-louis-missouri-10-25-2026/event/210064FEBA736E57",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Tank and the Bangas: The Last Balloon Tour 2026",
+   "date": "2026-10-25",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/tank-and-the-bangas-the-off-broadway-tickets/14797973",
+   "type": "concert"
   }
  ]
 }
