@@ -368,10 +368,10 @@
   // The words the page uses for the place
   var WORDS = {
     teamCity: 'St. Louis', // the board drops it from the clubs' names ("St. Louis Blues" → Blues)
-    presetDefault: 'Every room — the arena, the ballpark, the Dome, the big theatres, the music rooms and the county — every team and type',
+    presetDefault: 'Every venue — the arena, the ballpark, the Dome, the big theatres, the music venues and the county — every team and type',
     presetNeighborhood: 'Downtown and the stadiums only',
     presetBig: 'Only the places that hold 2,000 or more — the stadiums, the arenas and the big theatres',
-    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing downtown and the stadiums only.', big: 'Showing the big rooms only — the stadiums, the arenas and the big theatres.' },
+    phrases: { all: 'Showing everything.', none: 'Showing nothing yet — open Filter and pick some venues.', neighborhood: 'Showing downtown and the stadiums only.', big: 'Showing the big venues only — the stadiums, the arenas and the big theatres.' },
   };
 
   global.LQACity = {
