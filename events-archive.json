@@ -729,6 +729,22 @@
    "time": "20:00:00",
    "url": "https://www.ticketweb.com/event/tank-and-the-bangas-the-off-broadway-tickets/14797973",
    "type": "concert"
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "Saint Louis Billikens Women's Basketball vs. Bradley Braves Womens Basketball",
+   "date": "2026-10-26",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/saint-louis-billikens-womens-basketball-vs-saint-louis-missouri-10-26-2026/event/0600654C3D7E0CD0",
+   "type": "sports"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Sammy Rae & The Friends - the Get Down!",
+   "date": "2026-10-26",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-saint-louis-missouri-10-26-2026/event/06006470A0B7B9F2",
+   "type": "concert"
   }
  ]
 }
