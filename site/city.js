@@ -111,6 +111,9 @@
       url: 'https://www.enterprisecenter.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.enterprisecenter.com&sz=128',
       tm: { id: 'KovZpa2DJe', match: 'enterprise center', fallbackUrl: 'https://www.enterprisecenter.com/events', exclude: /parking|tour/i },
+      feed: { kind: 'cards', secondary: true, url: 'https://www.enterprisecenter.com/events/all', // the arena's own list (Carbonhouse): dates only, the clock sits on each event page; the Blues' games come from Ticketmaster, so they are dropped here (their short titles would not fold)
+        item: /<div class="event-entry entry/, title: /<div class="info-hidden">\s*<a href="([^"]+)"[^>]*>\s*<h3>([\s\S]*?)<\/h3>/,
+        when: /<span class="m">([^<]+)<\/span>\s*<span class="d">([^<]+)<\/span>(?:\s*<span class="y">[^<\d]*(\d{4})<)?/, drop: /^(?:st\.? louis )?blues vs\.?\s|parking|\btours?\b/i, type: 'concert' }, // what the arena lists beyond the Blues is concerts and tours
       alias: /enterprise center|scottrade center/i,
     },
     'Busch Stadium': {
@@ -144,6 +147,8 @@
       url: 'https://www.explorestlouis.com/americas-center/',
       icon: 'https://www.google.com/s2/favicons?domain=www.explorestlouis.com&sz=128',
       tm: { id: 'KovZpZA6AJeA', match: 'the dome', fallbackUrl: 'https://www.explorestlouis.com/americas-center/', exclude: /parking/i },
+      feed: { kind: 'cards', secondary: true, url: 'https://explorestlouis.com/americas-center/', // explorestlouis.com's "Upcoming Public Events" slider for the complex (six cards, dates without clocks or years); its Events Calendar REST wants "a valid browser request" (403) and the iCal export is gone (410)
+        item: /<div class="post-item">/, title: /<a href="([^"]+)">[\s\S]*?<h3>([\s\S]*?)<\/h3>/, when: /image-card__date'>([^<]+)</, drop: /dirt nationals/i }, // the Dirt Nationals' days and passes are Ticketmaster's rows
       alias: /the dome at america|edward jones dome|^the dome$/i,
     },
     'Chaifetz Arena': {
@@ -155,6 +160,9 @@
       url: 'https://www.chaifetzarena.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.chaifetzarena.com&sz=128',
       tm: { id: 'KovZpZAJ6ekA', match: 'chaifetz', fallbackUrl: 'https://www.chaifetzarena.com/events', exclude: /parking/i },
+      feed: { kind: 'cards', secondary: true, url: 'https://www.chaifetzarena.com/events/all', // the arena's own list (Carbonhouse), the clock from each card's "Event Starts"
+        item: /<div class="eventItem entry/, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
+        when: /m-date__month">([^<]+)<\/span><span class="m-date__day">([^<]+)<\/span>(?:<span class="m-date__year">[^<\d]*(\d{4})<)?(?:[\s\S]*?<span class="start">([^<]+)<)?/, drop: /parking|^saint louis vs\.?\s/i }, // the Billikens' games ("Saint Louis vs X") are Ticketmaster's and the Teams schedule's rows
       alias: /chaifetz/i,
     },
     'Fabulous Fox Theatre': {
@@ -166,6 +174,9 @@
       url: 'https://www.fabulousfox.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.fabulousfox.com&sz=128',
       tm: { id: 'KovZpZA17l7A', match: 'fox theatre', fallbackUrl: 'https://www.fabulousfox.com/events' },
+      feed: { kind: 'cards', secondary: true, url: 'https://www.fabulousfox.com/events/all', // the Fox's own list (Carbonhouse, MetroTix shows): a run's card lists every showing — the FIRST showing is read (date, year, clock); a one-night card prints its date alone
+        item: /<div class="eventItem entry/, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
+        when: /showings-detail-container[\s\S]*?m-date__month">([^<]+)<\/span><span class="m-date__day">([^<]+)<\/span><span class="m-date__year">[^<\d]*(\d{4})<\/span><span class="presale-time">([\s\S]*?)<\/span><\/span>|<div class="date">\s*<span class="m-date__singleDate"><span class="m-date__month">([^<]+)<\/span><span class="m-date__day">([^<]+)<\/span><span class="m-date__year">[^<\d]*(\d{4})</, drop: /fox theatre tour|gift card/i },
       alias: /fabulous fox|fox theatre/i,
     },
     'Stifel Theatre': {
@@ -177,6 +188,9 @@
       url: 'https://www.stifeltheatre.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.stifeltheatre.com&sz=128',
       tm: { id: 'KovZpa3die', match: 'stifel theatre', fallbackUrl: 'https://www.stifeltheatre.com/events' },
+      feed: { kind: 'cards', secondary: true, url: 'https://www.stifeltheatre.com/events/all', // the theatre's own list (Carbonhouse), the clock from each card's "Event Starts"
+        item: /<div class="eventItem entry/, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
+        when: /m-date__month">([^<]+)<\/span><span class="m-date__day">([^<]+)<\/span>(?:<span class="m-date__year">[^<\d]*(\d{4})<)?(?:[\s\S]*?<span class="start">([^<]+)<)?/, drop: /parking/i },
       alias: /stifel theat|peabody opera house/i,
     },
     'The Sheldon': {
@@ -187,7 +201,10 @@
       color: '#8a86ea',
       url: 'https://www.thesheldon.org/',
       icon: 'https://www.google.com/s2/favicons?domain=www.thesheldon.org&sz=128',
-      tm: { id: 'KovZpZAJEanA', match: 'sheldon', fallbackUrl: 'https://www.thesheldon.org/' },
+      tm: { id: 'KovZpZAJEanA', secondary: true, match: 'sheldon', fallbackUrl: 'https://www.thesheldon.org/' },
+      feed: { kind: 'cards', url: 'https://www.thesheldon.org/events/all', // the Sheldon's own list (Carbonhouse, MetroTix) leads — Ticketmaster carries a handful of its shows; "October 28 7:30 PM" in one date span, a two-night run as "November 3 - 4, 2026" (first night read)
+        item: /<div class="eventItem entry/, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
+        when: /m-date__month">([^<]+)<\/span><span class="m-date__day">([^<]+)<\/span>(?:<span class="m-date__year">[^<\d]*(\d{4})<)?(?:<span class="m-date__hour">([\s\S]*?)<\/span><\/span>)?/ },
       alias: /sheldon concert hall|^the sheldon$/i,
     },
     // --- Music rooms and the suburbs (`area: 'town'`): the Loop and Grand Center rooms, the south city clubs, then Maryland Heights, Chesterfield and St. Charles ---
@@ -201,6 +218,9 @@
       url: 'https://www.thepageant.com/calendar/',
       icon: 'https://www.google.com/s2/favicons?domain=www.thepageant.com&sz=128',
       tm: { id: 'KovZpZA6AJ7A', match: 'pageant', fallbackUrl: 'https://www.thepageant.com/calendar/' },
+      feed: { kind: 'cards', secondary: true, url: 'https://www.thepageant.com/calendar/?_sfm_venue_type=1', venues: /the pageant/i, // the Pageant's own calendar (one WordPress for the Pageant, Delmar Hall and the Duck Room; the venue filter's first page = 15 shows, no clocks printed)
+        item: /<div class="event-item">/, title: /<div class="event-image">\s*<a href="([^"]+)"[\s\S]*?<div class="artist-name">\s*<h3>\s*([\s\S]*?)<\/h3>/,
+        when: /<h2 class="day">(\d+)<\/h2>\s*<p>([A-Za-z]+)<\/p>[\s\S]*?event-year">(\d{4})</, place: /<p class="venue-name">[\s\S]*?<a [^>]*>\s*([^<]+?)\s*</ },
       alias: /the pageant/i,
     },
     'Delmar Hall': {
@@ -213,6 +233,9 @@
       url: 'https://www.delmarhall.com/calendar/',
       icon: 'https://www.google.com/s2/favicons?domain=www.delmarhall.com&sz=128',
       tm: { id: 'KovZpZAt6e7A', match: 'delmar hall', fallbackUrl: 'https://www.delmarhall.com/calendar/' },
+      feed: { kind: 'cards', secondary: true, url: 'https://www.delmarhall.com/calendar/?_sfm_venue_type=2', venues: /delmar hall/i, // the same calendar as the Pageant's, filtered to Delmar Hall (first page = 15 shows, no clocks printed)
+        item: /<div class="event-item">/, title: /<div class="event-image">\s*<a href="([^"]+)"[\s\S]*?<div class="artist-name">\s*<h3>\s*([\s\S]*?)<\/h3>/,
+        when: /<h2 class="day">(\d+)<\/h2>\s*<p>([A-Za-z]+)<\/p>[\s\S]*?event-year">(\d{4})</, place: /<p class="venue-name">[\s\S]*?<a [^>]*>\s*([^<]+?)\s*</ },
       alias: /delmar hall/i,
     },
     'The Factory': {
@@ -225,6 +248,9 @@
       url: 'https://thefactorystl.com/',
       icon: 'https://www.google.com/s2/favicons?domain=thefactorystl.com&sz=128',
       tm: { id: 'KovZ917APwI', match: 'the factory', fallbackUrl: 'https://thefactorystl.com/' },
+      feed: { kind: 'cards', secondary: true, url: 'https://thefactorystl.com/events/', // the Factory's own events page (WordPress block cards): month + day badge, no clock printed (only "Doors" in the card's data); the Info link read ahead of the title
+        item: /<article class="wp-block-g52-event-card g52-event-card"/, title: /(?=[\s\S]*?<a href="([^"]+)" class="g52-event-card__btn g52-event-card__btn--info")[\s\S]*?<h3 class="g52-event-card__title">\s*([\s\S]*?)<\/h3>/,
+        when: /badge-month">([^<]+)<\/span>\s*<span class="g52-event-card__badge-day">([^<]+)</ },
       alias: /^the factory\b/i,
     },
     'Hollywood Casino Amphitheatre': {
@@ -260,7 +286,10 @@
       color: '#ea869a',
       url: 'https://oldrockhouse.com/',
       icon: 'https://www.google.com/s2/favicons?domain=oldrockhouse.com&sz=128',
-      tm: { id: 'KovZpZA1I6dA', match: 'old rock house', fallbackUrl: 'https://oldrockhouse.com/' },
+      tm: { id: 'KovZpZA1I6dA', secondary: true, match: 'old rock house', fallbackUrl: 'https://oldrockhouse.com/' },
+      feed: { kind: 'cards', url: 'https://oldrockhouse.com/concert-calendar/', venues: /old rock house/i, // the club's own calendar (Rockhouse Partners WordPress) leads — it also lists the Sovereign's shows, kept out by the venue line; "Doors: 8 pm // Show: 8 pm" → the show clock
+        item: /<div class="col-12 col-sm-6 col-lg-4 eventMainWrapper/, title: /<a id\s*=\s*"eventTitle"[^>]*href="([^"]+)"[^>]*>\s*<h2[^>]*>\s*([\s\S]*?)<\/h2>/,
+        when: /eventMonth singleEventDate[^>]*>\s*([^<]+?)\s*<\/div>(?:[\s\S]*?Show:\s*([^<]+)<)?/, place: /<a class="venueLink" href="[^"]*"[^>]*>([^<]+)</ },
       alias: /old rock house/i,
     },
     'Blueberry Hill Duck Room': {
@@ -272,7 +301,8 @@
       color: '#86ea8e',
       url: 'https://blueberryhill.com/',
       icon: 'https://www.google.com/s2/favicons?domain=blueberryhill.com&sz=128',
-      tm: { id: 'KovZpZAaatIA', match: 'duck room', fallbackUrl: 'https://blueberryhill.com/' },
+      tm: { id: 'KovZpZAaatIA', secondary: true, match: 'duck room', fallbackUrl: 'https://blueberryhill.com/' },
+      feed: { kind: 'tribe', url: 'https://blueberryhill.com/wp-json/tribe/events/v1/events', venues: /duck room/i, drop: /trivia|dart league|karaoke/i }, // Blueberry Hill's Events Calendar (the Duck Room's shows; the Dart Room's leagues and trivia are another venue) leads — Ticketmaster lists one show
       alias: /duck room|blueberry hill/i,
     },
     'Off Broadway': {
@@ -284,7 +314,10 @@
       color: '#ab86ea',
       url: 'https://www.offbroadwaystl.com/',
       icon: 'https://www.google.com/s2/favicons?domain=www.offbroadwaystl.com&sz=128',
-      tm: { id: 'KovZpZAIdalA', match: 'off broadway', fallbackUrl: 'https://www.offbroadwaystl.com/' },
+      tm: { id: 'KovZpZAIdalA', secondary: true, match: 'off broadway', fallbackUrl: 'https://www.offbroadwaystl.com/' },
+      feed: { kind: 'cards', url: 'https://www.offbroadwaystl.com/shows', // the club's own Webflow listing leads (Ticketmaster has three shows): month + day sticker (no year — the nearest forward), "Doors: 6:00 pm • Show: 7:00 pm" → the show clock
+        item: /role="listitem" class="uui-layout88_item w-dyn-item"/, title: /<a href="([^"]+)" class="link-block-2[^>]*>[\s\S]*?<h3 class="name">([^<]*)</,
+        when: /event-month">([^<]+)<\/div><div class="event-day">([^<]+)<(?:[\s\S]*?Show:<\/div><div class="[^"]*">([^<]*)<)?/ },
       alias: /^off broadway\b/i,
     },
     'The Hawthorn': {
@@ -296,7 +329,8 @@
       color: '#eac886',
       url: 'https://www.thehawthornstl.com/',
       icon: 'https://www.google.com/s2/favicons?domain=www.thehawthornstl.com&sz=128',
-      tm: { id: 'KovZ917ARtS', match: 'hawthorn', fallbackUrl: 'https://www.thehawthornstl.com/' },
+      tm: { id: 'KovZ917ARtS', secondary: true, match: 'hawthorn', fallbackUrl: 'https://www.thehawthornstl.com/' },
+      feed: { kind: 'squarespace', url: 'https://www.thehawthornstl.com/tickets' }, // the Hawthorn's Squarespace events page (AXS and TicketWeb shows) leads — Ticketmaster lists a few; the site's clock is set to Pacific and its times are entered as the local wall clock, which is what the feed reads
       alias: /the hawthorn\b/i,
     },
     'Red Flag': {
@@ -308,7 +342,10 @@
       color: '#86eae6',
       url: 'https://www.redflagstl.com/shows',
       icon: 'https://www.google.com/s2/favicons?domain=www.redflagstl.com&sz=128',
-      tm: { id: 'KovZ917APxx', match: 'red flag', fallbackUrl: 'https://www.redflagstl.com/shows' },
+      tm: { id: 'KovZ917APxx', secondary: true, match: 'red flag', fallbackUrl: 'https://www.redflagstl.com/shows' },
+      feed: { kind: 'cards', url: 'https://www.redflagstl.com/shows', // the club's own Webflow listing leads (Ticketmaster lists nothing): month + day + clock sticker, no year (the nearest forward)
+        item: /role="listitem" class="uui-layout88_item w-dyn-item"/, title: /<a href="([^"]+)" class="link-block-2[^>]*>[\s\S]*?<h3 class="uui-heading-xxsmall-2">([^<]*)</,
+        when: /event-month">([^<]+)<\/div><div class="event-day">([^<]+)<[\s\S]*?event-time-new">([^<]*)</ },
       alias: /^red flag\b/i,
     },
     'River City Casino': {
@@ -333,6 +370,7 @@
       url: 'https://www.familyarena.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.familyarena.com&sz=128',
       tm: { id: 'KovZpZAIIEaA', match: 'family arena', fallbackUrl: 'https://www.familyarena.com/events', exclude: /parking/i },
+      feed: { kind: 'tribe', secondary: true, url: 'https://familyarena.com/wp-json/tribe/events/v1/events' }, // the arena's Events Calendar, filling in behind Ticketmaster
       alias: /family arena/i,
     },
   };
