@@ -507,6 +507,22 @@
   },
   {
    "venue": "The Dome at America's Center",
+   "title": "Bands of America – Super Regional",
+   "date": "2026-10-23",
+   "time": "",
+   "url": "https://explorestlouis.com/event/bands-of-america-super-regional/",
+   "type": "sports"
+  },
+  {
+   "venue": "The Dome at America's Center",
+   "title": "GalaxyCon St. Louis 2026",
+   "date": "2026-10-23",
+   "time": "",
+   "url": "https://explorestlouis.com/event/galaxycon-st-louis-2026/2026-10-23/",
+   "type": "sports"
+  },
+  {
+   "venue": "The Dome at America's Center",
    "title": "Bands Of America - Friday Prelims",
    "date": "2026-10-23",
    "time": "09:15:00",
@@ -583,6 +599,14 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/beat-belewvailevinbozzio-performing-the-music-of-saint-charles-missouri-10-23-2026/event/060064FE19EC8F45",
    "type": "concert"
+  },
+  {
+   "venue": "The Dome at America's Center",
+   "title": "Bands of America – Super Regional",
+   "date": "2026-10-24",
+   "time": "",
+   "url": "https://explorestlouis.com/event/bands-of-america-super-regional/",
+   "type": "sports"
   },
   {
    "venue": "The Dome at America's Center",
@@ -766,6 +790,38 @@
    "date": "2026-10-27",
    "time": "19:30:00",
    "url": "https://www.ticketmaster.com/the-dolly-show-saint-louis-missouri-10-27-2026/event/2100651616396E3A",
+   "type": "concert"
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "All Elite Wrestling presents Dynamite & Collision Fright Night",
+   "date": "2026-10-28",
+   "time": "18:30:00",
+   "url": "https://www.ticketmaster.com/all-elite-wrestling-presents-dynamite-collision-saint-louis-missouri-10-28-2026/event/0600650C8B0B451F",
+   "type": "sports"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Boop!",
+   "date": "2026-10-28",
+   "time": "19:30",
+   "url": "https://www.fabulousfox.com/events/detail/boop",
+   "type": "arts"
+  },
+  {
+   "venue": "Energizer Park",
+   "title": "St. Louis City SC vs. Portland Timbers",
+   "date": "2026-10-28",
+   "time": "19:30:00",
+   "url": "https://www.energizerpark.com/",
+   "type": "sports"
+  },
+  {
+   "venue": "The Factory",
+   "title": "The Billy Joel Legacy - A Tribute Experience",
+   "date": "2026-10-28",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-billy-joel-legacy-a-tribute-saint-louis-missouri-10-28-2026/event/210064D3E48B74A1",
    "type": "concert"
   }
  ]
