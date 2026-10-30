@@ -111,7 +111,7 @@
       url: 'https://www.enterprisecenter.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.enterprisecenter.com&sz=128',
       tm: { id: 'KovZpa2DJe', match: 'enterprise center', fallbackUrl: 'https://www.enterprisecenter.com/events', exclude: /parking|tour/i },
-      feed: { kind: 'cards', secondary: true, url: 'https://www.enterprisecenter.com/events/all', // the arena's own list (Carbonhouse): dates only, the clock sits on each event page; the Blues' games come from Ticketmaster, so they are dropped here (their short titles would not fold)
+      feed: { kind: 'cards', chrome: true, secondary: true, url: 'https://www.enterprisecenter.com/events/all', // the arena's own list (Carbonhouse): dates only, the clock sits on each event page; the Blues' games come from Ticketmaster, so they are dropped here (their short titles would not fold)
         item: /<div class="event-entry entry/, title: /<div class="info-hidden">\s*<a href="([^"]+)"[^>]*>\s*<h3>([\s\S]*?)<\/h3>/,
         when: /<span class="m">([^<]+)<\/span>\s*<span class="d">([^<]+)<\/span>(?:\s*<span class="y">[^<\d]*(\d{4})<)?/, drop: /^(?:st\.? louis )?blues vs\.?\s|parking|\btours?\b/i, type: 'concert' }, // what the arena lists beyond the Blues is concerts and tours
       alias: /enterprise center|scottrade center/i,
@@ -160,7 +160,7 @@
       url: 'https://www.chaifetzarena.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.chaifetzarena.com&sz=128',
       tm: { id: 'KovZpZAJ6ekA', match: 'chaifetz', fallbackUrl: 'https://www.chaifetzarena.com/events', exclude: /parking/i },
-      feed: { kind: 'cards', secondary: true, url: 'https://www.chaifetzarena.com/events/all', // the arena's own list (Carbonhouse), the clock from each card's "Event Starts"
+      feed: { kind: 'cards', chrome: true, secondary: true, url: 'https://www.chaifetzarena.com/events/all', // the arena's own list (Carbonhouse), the clock from each card's "Event Starts"
         item: /<div class="eventItem entry/, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
         when: /m-date__month">([^<]+)<\/span><span class="m-date__day">([^<]+)<\/span>(?:<span class="m-date__year">[^<\d]*(\d{4})<)?(?:[\s\S]*?<span class="start">([^<]+)<)?/, drop: /parking|^saint louis vs\.?\s/i }, // the Billikens' games ("Saint Louis vs X") are Ticketmaster's and the Teams schedule's rows
       alias: /chaifetz/i,
@@ -174,7 +174,7 @@
       url: 'https://www.fabulousfox.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.fabulousfox.com&sz=128',
       tm: { id: 'KovZpZA17l7A', match: 'fox theatre', fallbackUrl: 'https://www.fabulousfox.com/events' },
-      feed: { kind: 'cards', secondary: true, url: 'https://www.fabulousfox.com/events/all', // the Fox's own list (Carbonhouse, MetroTix shows): a run's card lists every showing — the FIRST showing is read (date, year, clock); a one-night card prints its date alone
+      feed: { kind: 'cards', chrome: true, secondary: true, url: 'https://www.fabulousfox.com/events/all', // the Fox's own list (Carbonhouse, MetroTix shows): a run's card lists every showing — the FIRST showing is read (date, year, clock); a one-night card prints its date alone
         item: /<div class="eventItem entry/, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
         when: /showings-detail-container[\s\S]*?m-date__month">([^<]+)<\/span><span class="m-date__day">([^<]+)<\/span><span class="m-date__year">[^<\d]*(\d{4})<\/span><span class="presale-time">([\s\S]*?)<\/span><\/span>|<div class="date">\s*<span class="m-date__singleDate"><span class="m-date__month">([^<]+)<\/span><span class="m-date__day">([^<]+)<\/span><span class="m-date__year">[^<\d]*(\d{4})</, drop: /fox theatre tour|gift card/i },
       alias: /fabulous fox|fox theatre/i,
@@ -188,7 +188,7 @@
       url: 'https://www.stifeltheatre.com/events',
       icon: 'https://www.google.com/s2/favicons?domain=www.stifeltheatre.com&sz=128',
       tm: { id: 'KovZpa3die', match: 'stifel theatre', fallbackUrl: 'https://www.stifeltheatre.com/events' },
-      feed: { kind: 'cards', secondary: true, url: 'https://www.stifeltheatre.com/events/all', // the theatre's own list (Carbonhouse), the clock from each card's "Event Starts"
+      feed: { kind: 'cards', chrome: true, secondary: true, url: 'https://www.stifeltheatre.com/events/all', // the theatre's own list (Carbonhouse), the clock from each card's "Event Starts"
         item: /<div class="eventItem entry/, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
         when: /m-date__month">([^<]+)<\/span><span class="m-date__day">([^<]+)<\/span>(?:<span class="m-date__year">[^<\d]*(\d{4})<)?(?:[\s\S]*?<span class="start">([^<]+)<)?/, drop: /parking/i },
       alias: /stifel theat|peabody opera house/i,
@@ -202,7 +202,7 @@
       url: 'https://www.thesheldon.org/',
       icon: 'https://www.google.com/s2/favicons?domain=www.thesheldon.org&sz=128',
       tm: { id: 'KovZpZAJEanA', secondary: true, match: 'sheldon', fallbackUrl: 'https://www.thesheldon.org/' },
-      feed: { kind: 'cards', url: 'https://www.thesheldon.org/events/all', // the Sheldon's own list (Carbonhouse, MetroTix) leads — Ticketmaster carries a handful of its shows; "October 28 7:30 PM" in one date span, a two-night run as "November 3 - 4, 2026" (first night read)
+      feed: { kind: 'cards', chrome: true, url: 'https://www.thesheldon.org/events/all', // the Sheldon's own list (Carbonhouse, MetroTix) leads — Ticketmaster carries a handful of its shows; "October 28 7:30 PM" in one date span, a two-night run as "November 3 - 4, 2026" (first night read)
         item: /<div class="eventItem entry/, title: /<h3 class="title[^"]*">\s*<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/,
         when: /m-date__month">([^<]+)<\/span><span class="m-date__day">([^<]+)<\/span>(?:<span class="m-date__year">[^<\d]*(\d{4})<)?(?:<span class="m-date__hour">([\s\S]*?)<\/span><\/span>)?/ },
       alias: /sheldon concert hall|^the sheldon$/i,
