@@ -823,6 +823,52 @@
    "time": "19:30:00",
    "url": "https://www.ticketmaster.com/the-billy-joel-legacy-a-tribute-saint-louis-missouri-10-28-2026/event/210064D3E48B74A1",
    "type": "concert"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "St. Louis Blues vs. Boston Bruins",
+   "date": "2026-10-29",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/st-louis-blues-vs-boston-bruins-saint-louis-missouri-10-29-2026/event/060064EECE071B2F",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "STLNHL",
+     "BN+"
+    ]
+   }
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "BOOP! The Musical (Touring)",
+   "date": "2026-10-29",
+   "time": "19:30:00",
+   "url": "https://www.fabulousfox.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Thundercat: Distracted AF Tour",
+   "date": "2026-10-29",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/thundercat-distracted-af-tour-saint-louis-missouri-10-29-2026/event/210064E39E0E20F8",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "The Brook & The Bluff: The Werewolf Tour",
+   "date": "2026-10-29",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/the-brook-the-bluff-the-werewolf-saint-louis-missouri-10-29-2026/event/060064C2184E3E6E",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "Halloweekend Kickoff",
+   "date": "2026-10-29",
+   "time": "21:00",
+   "url": "https://www.redflagstl.com/shows/halloweekend-kickoff-29-oct",
+   "type": "concert"
   }
  ]
 }
