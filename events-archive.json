@@ -869,6 +869,80 @@
    "time": "21:00",
    "url": "https://www.redflagstl.com/shows/halloweekend-kickoff-29-oct",
    "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Josh Johnson's Comedy Band Camp",
+   "date": "2026-10-30",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/josh-johnsons-comedy-band-camp-saint-louis-missouri-10-30-2026/event/2100646299992589",
+   "type": "arts"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Boop!",
+   "date": "2026-10-30",
+   "time": "19:30",
+   "url": "https://www.fabulousfox.com/events/detail/boop",
+   "type": "arts"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Justin Rose and The Green Thumbs",
+   "date": "2026-10-30",
+   "time": "20:00",
+   "url": "https://oldrockhouse.com/event/justin-rose-and-the-green-thumbs/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "The Paradox",
+   "date": "2026-10-30",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/the-paradox-30-oct",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "Tributes to Blink182, Avril Lavigne, Green Day, & My Chemical Romance",
+   "date": "2026-10-30",
+   "time": "20:00",
+   "url": "https://www.redflagstl.com/shows/nightmare-on-pop-punk-street-an-emo-night-halloween-tribute-show-30-oct",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Ryan Bingham and The Texas Gentlemen - Still Gettin' Away With It Tour",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/ryan-bingham-and-the-texas-gentlemen-saint-louis-missouri-10-30-2026/event/060064EFA14FD345",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Donny Benét",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/donny-benet-saint-louis-missouri-10-30-2026/event/060064879C7F961C",
+   "type": "concert"
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "Micro Wrestling",
+   "date": "2026-10-30",
+   "time": "20:00:00",
+   "url": "https://www.ticketweb.com/event/micro-wrestling-the-hawthorn-tickets/14901963",
+   "type": "sports",
+   "status": "cancelled",
+   "statusSince": "2026-10-26T17:58:19.297Z"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "The Secret Show",
+   "date": "2026-10-30",
+   "time": "23:00",
+   "url": "https://event.tixologi.com/event/15607/tickets",
+   "type": "concert"
   }
  ]
 }
