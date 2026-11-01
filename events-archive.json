@@ -943,6 +943,78 @@
    "time": "23:00",
    "url": "https://event.tixologi.com/event/15607/tickets",
    "type": "concert"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Boop!",
+   "date": "2026-10-31",
+   "time": "14:00",
+   "url": "https://www.fabulousfox.com/events/detail/boop",
+   "type": "arts"
+  },
+  {
+   "venue": "Energizer Park",
+   "title": "St. Louis City SC vs. San Diego FC",
+   "date": "2026-10-31",
+   "time": "14:00:00",
+   "url": "https://www.energizerpark.com/",
+   "type": "sports"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Josh Johnson's Comedy Band Camp",
+   "date": "2026-10-31",
+   "time": "17:00:00",
+   "url": "https://www.ticketmaster.com/josh-johnsons-comedy-band-camp-saint-louis-missouri-10-31-2026/event/21006463DDF74159",
+   "type": "arts"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "Queen of Dreams",
+   "date": "2026-10-31",
+   "time": "18:00",
+   "url": "https://www.redflagstl.com/shows/alt-stl-presents-the-crimson-carnival-31-oct",
+   "type": "concert"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Jake’s Leg",
+   "date": "2026-10-31",
+   "time": "20:00",
+   "url": "https://oldrockhouse.com/event/jakes-leg/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Halloween Cover Show : A Concert to Benefit 314 Oasis",
+   "date": "2026-10-31",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/halloween-cover-show-a-concert-to-benefit-314-oasis-31-oct",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Post Sex Nachos",
+   "date": "2026-10-31",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/post-sex-nachos-saint-louis-missouri-10-31-2026/event/060064A5890F7777",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Josh Johnson's Comedy Band Camp",
+   "date": "2026-10-31",
+   "time": "20:30:00",
+   "url": "https://www.ticketmaster.com/josh-johnsons-comedy-band-camp-saint-louis-missouri-10-31-2026/event/21006462E3403C29",
+   "type": "arts"
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "Rewind: 2000s Halloween Rave",
+   "date": "2026-10-31",
+   "time": "21:30",
+   "url": "https://www.thehawthornstl.com/tickets/rewind-103126",
+   "type": "concert"
   }
  ]
 }
