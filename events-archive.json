@@ -1015,6 +1015,14 @@
    "time": "21:30",
    "url": "https://www.thehawthornstl.com/tickets/rewind-103126",
    "type": "concert"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Boop!",
+   "date": "2026-11-01",
+   "time": "13:00",
+   "url": "https://www.fabulousfox.com/events/detail/boop",
+   "type": "arts"
   }
  ]
 }
