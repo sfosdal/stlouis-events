@@ -426,6 +426,7 @@
     teams: TEAMS,
     map: { // the Map view (local-map.js; the ground drawn once by scripts/build-local-map.mjs from OpenStreetMap, committed as site/local-map.json) — every city gets one, Steve, 2026-10-26
       kind: 'urban',
+      boundary: { osm: 1180533 }, // the city line, always drawn (Steve, 2026-11-02): OpenStreetMap's boundary relation for St. Louis
       bbox: [38.504, -90.653, 38.78, -90.131], // south, west, north, east — every room, with a margin
       home: [38.617, -90.244, 38.647, -90.181], // the view at first: the city's own rooms; the fit button shows the whole frame
       roads: ['motorway', 'trunk', 'primary'],
