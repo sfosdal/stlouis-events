@@ -1031,6 +1031,46 @@
    "time": "19:00:00",
    "url": "https://www.ticketmaster.com/saint-louis-billiken-mens-basketball-vs-saint-louis-missouri-11-02-2026/event/0600653E3746F8DA",
    "type": "sports"
+  },
+  {
+   "venue": "The Sheldon",
+   "title": "Vincent Varvel Quartet featuring Leslie Craig",
+   "date": "2026-11-03",
+   "time": "",
+   "url": "https://www.thesheldon.org/events/detail/vince-varvel-group",
+   "type": "arts"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Boop!",
+   "date": "2026-11-03",
+   "time": "19:30",
+   "url": "https://www.fabulousfox.com/events/detail/boop",
+   "type": "arts"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Rehash",
+   "date": "2026-11-03",
+   "time": "20:00",
+   "url": "https://oldrockhouse.com/event/rehash/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "JER",
+   "date": "2026-11-03",
+   "time": "20:00",
+   "url": "https://www.etix.com/ticket/p/57719195/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Undertale - The Determination Symphony World Tour",
+   "date": "2026-11-03",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/undertale-the-determination-symphony-world-tour-saint-louis-missouri-11-03-2026/event/21006479E51F41CB",
+   "type": "concert"
   }
  ]
 }
