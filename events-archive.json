@@ -1071,6 +1071,62 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/undertale-the-determination-symphony-world-tour-saint-louis-missouri-11-03-2026/event/21006479E51F41CB",
    "type": "concert"
+  },
+  {
+   "venue": "The Sheldon",
+   "title": "Toast - The Best of Bread",
+   "date": "2026-11-04",
+   "time": "19:00",
+   "url": "https://www.thesheldon.org/events/detail/toast-the-best-of-bread",
+   "type": "arts"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Boop!",
+   "date": "2026-11-04",
+   "time": "19:30",
+   "url": "https://www.fabulousfox.com/events/detail/boop",
+   "type": "arts"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Turnover - Down On Earth Tour",
+   "date": "2026-11-04",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/turnover-down-on-earth-tour-saint-louis-missouri-11-04-2026/event/060064D2E7A85C52",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Faetooth",
+   "date": "2026-11-04",
+   "time": "20:00",
+   "url": "https://www.etix.com/ticket/p/50938838/",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Margaret Glaspy",
+   "date": "2026-11-04",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/margaret-glaspy-04-nov-d0b71",
+   "type": "concert"
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "Jodeci- 35th Anniversary Tour of Forever My Lady",
+   "date": "2026-11-04",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-saint-louis-missouri-11-04-2026/event/060064F7A46A9F46",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Russian Circles",
+   "date": "2026-11-04",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/russian-circles-saint-louis-missouri-11-04-2026/event/060064D1D296371C",
+   "type": "concert"
   }
  ]
 }
