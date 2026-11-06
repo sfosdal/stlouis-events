@@ -1127,6 +1127,79 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/russian-circles-saint-louis-missouri-11-04-2026/event/060064D1D296371C",
    "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "UNDERØATH",
+   "date": "2026-11-05",
+   "time": "",
+   "url": "https://www.thepageant.com/event/underoath-110526/",
+   "type": "concert"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Boop!",
+   "date": "2026-11-05",
+   "time": "13:00",
+   "url": "https://www.fabulousfox.com/events/detail/boop",
+   "type": "arts"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Underoath - Define the Great Line 20th Anniversary Tour",
+   "date": "2026-11-05",
+   "time": "18:30:00",
+   "url": "https://www.ticketmaster.com/underoath-define-the-great-line-20th-saint-louis-missouri-11-05-2026/event/060064C3C73ECC28",
+   "type": "concert"
+  },
+  {
+   "venue": "The Sheldon",
+   "title": "Science Friday Live with Ira Flatow",
+   "date": "2026-11-05",
+   "time": "19:00",
+   "url": "https://www.thesheldon.org/events/detail/science-friday-live-with-ira-flow",
+   "type": "arts"
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "Saint Louis Billikens Women's Basketball vs. Wisconsin Milwaukee Panthers Womens Basketball",
+   "date": "2026-11-05",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/saint-louis-billikens-womens-basketball-vs-saint-louis-missouri-11-05-2026/event/0600654C3D830CD3",
+   "type": "sports"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Prof",
+   "date": "2026-11-05",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/prof-saint-louis-missouri-11-05-2026/event/210064A4EA2A6AC0",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "The Band Memo",
+   "date": "2026-11-05",
+   "time": "20:00",
+   "url": "https://oldrockhouse.com/event/the-band-memo/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "West 22nd",
+   "date": "2026-11-05",
+   "time": "20:00",
+   "url": "https://www.ticketmaster.com/event/060064F4A9A2AF40",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "West 22nd",
+   "date": "2026-11-05",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/west-22nd-saint-louis-missouri-11-05-2026/event/060064F4A9A2AF40",
+   "type": "concert"
   }
  ]
 }
