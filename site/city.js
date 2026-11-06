@@ -284,9 +284,9 @@
       type: 'concert',
       cssVar: '--v-oldrock',
       color: '#ea869a',
-      url: 'https://oldrockhouse.com/',
+      url: 'https://oldrockhouse.com/concert-calendar/',
       icon: 'https://www.google.com/s2/favicons?domain=oldrockhouse.com&sz=128',
-      tm: { id: 'KovZpZA1I6dA', secondary: true, match: 'old rock house', fallbackUrl: 'https://oldrockhouse.com/' },
+      tm: { id: 'KovZpZA1I6dA', secondary: true, match: 'old rock house', fallbackUrl: 'https://oldrockhouse.com/concert-calendar/' },
       feed: { kind: 'cards', url: 'https://oldrockhouse.com/concert-calendar/', venues: /old rock house/i, // the club's own calendar (Rockhouse Partners WordPress) leads — it also lists the Sovereign's shows, kept out by the venue line; "Doors: 8 pm // Show: 8 pm" → the show clock
         item: /<div class="col-12 col-sm-6 col-lg-4 eventMainWrapper/, title: /<a id\s*=\s*"eventTitle"[^>]*href="([^"]+)"[^>]*>\s*<h2[^>]*>\s*([\s\S]*?)<\/h2>/,
         when: /eventMonth singleEventDate[^>]*>\s*([^<]+?)\s*<\/div>(?:[\s\S]*?Show:\s*([^<]+)<)?/, place: /<a class="venueLink" href="[^"]*"[^>]*>([^<]+)</ },
@@ -312,9 +312,9 @@
       type: 'concert',
       cssVar: '--v-offbway',
       color: '#ab86ea',
-      url: 'https://www.offbroadwaystl.com/',
+      url: 'https://www.offbroadwaystl.com/shows',
       icon: 'https://www.google.com/s2/favicons?domain=www.offbroadwaystl.com&sz=128',
-      tm: { id: 'KovZpZAIdalA', secondary: true, match: 'off broadway', fallbackUrl: 'https://www.offbroadwaystl.com/' },
+      tm: { id: 'KovZpZAIdalA', secondary: true, match: 'off broadway', fallbackUrl: 'https://www.offbroadwaystl.com/shows' },
       feed: { kind: 'cards', url: 'https://www.offbroadwaystl.com/shows', // the club's own Webflow listing leads (Ticketmaster has three shows): month + day sticker (no year — the nearest forward), "Doors: 6:00 pm • Show: 7:00 pm" → the show clock
         item: /role="listitem" class="uui-layout88_item w-dyn-item"/, title: /<a href="([^"]+)" class="link-block-2[^>]*>[\s\S]*?<h3 class="name">([^<]*)</,
         when: /event-month">([^<]+)<\/div><div class="event-day">([^<]+)<(?:[\s\S]*?Show:<\/div><div class="[^"]*">([^<]*)<)?/ },
