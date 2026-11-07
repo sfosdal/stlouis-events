@@ -1200,6 +1200,87 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/west-22nd-saint-louis-missouri-11-05-2026/event/060064F4A9A2AF40",
    "type": "concert"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "Mizzou vs. SLU Men's Basketball",
+   "date": "2026-11-06",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/mizzou-vs-slu-mens-basketball-saint-louis-missouri-11-06-2026/event/0600650CCEF4CBBA",
+   "type": "sports"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "Millionaires",
+   "date": "2026-11-06",
+   "time": "19:00",
+   "url": "https://www.redflagstl.com/shows/millionaires-06-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Daniel Sloss: BITTER  (Brand New Tour!)",
+   "date": "2026-11-06",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/daniel-sloss-bitter-brand-new-tour-saint-louis-missouri-11-06-2026/event/06006442A14E7878",
+   "type": "arts"
+  },
+  {
+   "venue": "The Factory",
+   "title": "The String Cheese Incident: Just Keep Spinning Tour",
+   "date": "2026-11-06",
+   "time": "19:15:00",
+   "url": "https://www.ticketmaster.com/the-string-cheese-incident-just-keep-saint-louis-missouri-11-06-2026/event/210064FFC02D5DDE",
+   "type": "concert"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Boop!",
+   "date": "2026-11-06",
+   "time": "19:30",
+   "url": "https://www.fabulousfox.com/events/detail/boop",
+   "type": "arts"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Ole Smoky Roadshow Presents: Moonshine & Music w/ Pynk Beard & More",
+   "date": "2026-11-06",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/ole-smoky-roadshow-presents-moonshine-music-saint-louis-missouri-11-06-2026/event/06006550CA5FF92C",
+   "age21": true,
+   "type": "concert"
+  },
+  {
+   "venue": "The Sheldon",
+   "title": "Amythyst Kiah",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "url": "https://www.thesheldon.org/events/detail/amythyst-kiah",
+   "type": "arts"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Em Beihold: Tales of a Failed Shapeshifter Tour",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "url": "https://oldrockhouse.com/event/em-beihold-tales-of-a-failed-shapeshifter-tour/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "All Get Out",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "url": "https://www.etix.com/ticket/p/51347241/all-get-out-university-city-blueberry-hill-duck-room",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Olive - Streak Of Ties Album Release Show Birthday Bash",
+   "date": "2026-11-06",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/olive-streak-of-ties-album-release-show-birthday-bash-06-nov",
+   "type": "concert"
   }
  ]
 }
