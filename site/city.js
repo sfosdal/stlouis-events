@@ -261,7 +261,7 @@
       cssVar: '--v-hca',
       color: '#d5ea86',
       url: 'https://www.livenation.com/venue/KovZpZAEAnaA/hollywood-casino-amphitheatre-tickets',
-      icon: 'marks/venues/livenation.com.png',
+      icon: 'marks/venues/hollywoodcasinoampstlouis.com.png',
       tm: { id: 'KovZpZAEAnaA', match: 'hollywood casino amphitheat', fallbackUrl: 'https://www.livenation.com/venue/KovZpZAEAnaA/hollywood-casino-amphitheatre-tickets', exclude: /parking|lawn pass|season pass/i },
       alias: /hollywood casino amphitheat|riverport/i,
     },
@@ -300,7 +300,6 @@
       cssVar: '--v-duckroom',
       color: '#86ea8e',
       url: 'https://blueberryhill.com/',
-      icon: 'marks/venues/blueberryhill.com.png',
       tm: { id: 'KovZpZAaatIA', secondary: true, match: 'duck room', fallbackUrl: 'https://blueberryhill.com/' },
       feed: { kind: 'tribe', url: 'https://blueberryhill.com/wp-json/tribe/events/v1/events', venues: /duck room/i, drop: /trivia|dart league|karaoke/i }, // Blueberry Hill's Events Calendar (the Duck Room's shows; the Dart Room's leagues and trivia are another venue) leads — Ticketmaster lists one show
       alias: /duck room|blueberry hill/i,
