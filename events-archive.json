@@ -1281,6 +1281,70 @@
    "time": "20:00",
    "url": "https://www.offbroadwaystl.com/shows/olive-streak-of-ties-album-release-show-birthday-bash-06-nov",
    "type": "concert"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "Three Days Grace",
+   "date": "2026-11-07",
+   "time": "",
+   "url": "https://www.enterprisecenter.com/events/detail/three-days-grace",
+   "type": "concert"
+  },
+  {
+   "venue": "Family Arena",
+   "title": "Hot Wheels Monster Trucks Live Glow-N-Fire",
+   "date": "2026-11-07",
+   "time": "11:30:00",
+   "url": "https://www.ticketmaster.com/hot-wheels-monster-trucks-live-glownfire-saint-charles-missouri-11-07-2026/event/0600646408718B5B",
+   "type": "sports"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Boop!",
+   "date": "2026-11-07",
+   "time": "14:00",
+   "url": "https://www.fabulousfox.com/events/detail/boop",
+   "type": "arts"
+  },
+  {
+   "venue": "Family Arena",
+   "title": "Hot Wheels Monster Trucks Live Glow-N-Fire",
+   "date": "2026-11-07",
+   "time": "18:30:00",
+   "url": "https://www.ticketmaster.com/hot-wheels-monster-trucks-live-glownfire-saint-charles-missouri-11-07-2026/event/06006464087E8B67",
+   "type": "sports"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Wage War - Emergency Broadcast Tour",
+   "date": "2026-11-07",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/wage-war-emergency-broadcast-tour-saint-louis-missouri-11-07-2026/event/060064C1C52EA995",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Hot Freaks",
+   "date": "2026-11-07",
+   "time": "20:00",
+   "url": "https://www.etix.com/ticket/p/88549741/",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Starwolf Album Release Show",
+   "date": "2026-11-07",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/starwolf-07-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "Basement",
+   "date": "2026-11-07",
+   "time": "20:00",
+   "url": "https://www.thehawthornstl.com/tickets/basement",
+   "type": "concert"
   }
  ]
 }
