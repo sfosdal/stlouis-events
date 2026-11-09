@@ -1345,6 +1345,62 @@
    "time": "20:00",
    "url": "https://www.thehawthornstl.com/tickets/basement",
    "type": "concert"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Boop!",
+   "date": "2026-11-08",
+   "time": "",
+   "url": "https://www.fabulousfox.com/events/detail/boop",
+   "type": "arts"
+  },
+  {
+   "venue": "Family Arena",
+   "title": "Hot Wheels Monster Trucks Live Glow-N-Fire",
+   "date": "2026-11-08",
+   "time": "13:30:00",
+   "url": "https://www.ticketmaster.com/hot-wheels-monster-trucks-live-glownfire-saint-charles-missouri-11-08-2026/event/0600646408848B77",
+   "type": "sports"
+  },
+  {
+   "venue": "The Sheldon",
+   "title": "Circle of Support Benefit Concert & Awards Program featuring Nicole Henry",
+   "date": "2026-11-08",
+   "time": "16:00",
+   "url": "https://www.thesheldon.org/events/detail/circle-of-support-benefit-concert-awards-program-featuring-nicole-henry",
+   "type": "arts"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Boney James",
+   "date": "2026-11-08",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/boney-james-saint-louis-missouri-11-08-2026/event/2100651637207A60",
+   "type": "concert"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Hunter Flynn: Back To My Roots Tour",
+   "date": "2026-11-08",
+   "time": "20:00",
+   "url": "https://oldrockhouse.com/event/hunter-flynn-back-to-my-roots-tour/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Harrison Gordon",
+   "date": "2026-11-08",
+   "time": "20:00",
+   "url": "https://blueberryhill.com/event/harrison-gordon/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "State Champs - Around the World and Back Again",
+   "date": "2026-11-08",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/state-champs-around-the-world-and-saint-louis-missouri-11-08-2026/event/060064C8D505E46C",
+   "type": "concert"
   }
  ]
 }
