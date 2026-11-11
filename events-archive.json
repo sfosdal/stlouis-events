@@ -1401,6 +1401,61 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/state-champs-around-the-world-and-saint-louis-missouri-11-08-2026/event/060064C8D505E46C",
    "type": "concert"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "St. Louis Blues vs. Detroit Red Wings",
+   "date": "2026-11-10",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/st-louis-blues-vs-detroit-red-saint-louis-missouri-11-10-2026/event/060064EECE0D1B3E",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "TNT",
+     "HBO MAX",
+     "SN+"
+    ]
+   }
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "Saint Louis Billiken Mens Basketball vs. Northern Kentucky Norse Mens Basketball",
+   "date": "2026-11-10",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/saint-louis-billiken-mens-basketball-vs-saint-louis-missouri-11-10-2026/event/0600653E374DF8E0",
+   "type": "sports"
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "Alice Cooper - Alice's Attic Tour",
+   "date": "2026-11-10",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/alice-cooper-alices-attic-tour-saint-louis-missouri-11-10-2026/event/060064E69F546A46",
+   "type": "concert"
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "Clara La San",
+   "date": "2026-11-10",
+   "time": "20:00",
+   "url": "https://www.thehawthornstl.com/tickets/clara-la-san",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "The Music of Hey Arnold Live! Feat. Jim Lang and The PS 118 AllStars",
+   "date": "2026-11-10",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/the-music-of-hey-arnold-live-saint-louis-missouri-11-10-2026/event/0600650C94D35C70",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Hurricane Wisdom: Weathering The World",
+   "date": "2026-11-10",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/hurricane-wisdom-weathering-the-world-saint-louis-missouri-11-10-2026/event/0600650CAE668C1C",
+   "type": "concert"
   }
  ]
 }
