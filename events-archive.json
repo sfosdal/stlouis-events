@@ -1456,6 +1456,38 @@
    "time": "20:00:00",
    "url": "https://www.ticketmaster.com/hurricane-wisdom-weathering-the-world-saint-louis-missouri-11-10-2026/event/0600650CAE668C1C",
    "type": "concert"
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "Saint Louis Billikens Women's Basketball vs. Eastern Illinois Panthers Womens Basketball",
+   "date": "2026-11-11",
+   "time": "16:00:00",
+   "url": "https://www.ticketmaster.com/saint-louis-billikens-womens-basketball-vs-saint-louis-missouri-11-11-2026/event/0600654C3D880CD5",
+   "type": "sports"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Flyover Comedy Festival 2026 Presents: Casey Rocket",
+   "date": "2026-11-11",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/flyover-comedy-festival-2026-presents-casey-saint-louis-missouri-11-11-2026/event/060064EDC7D1D380",
+   "type": "arts"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Worst Party Ever x Equipment",
+   "date": "2026-11-11",
+   "time": "19:30",
+   "url": "https://oldrockhouse.com/event/worst-party-ever-x-equipment/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "311",
+   "date": "2026-11-11",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/311-saint-louis-missouri-11-11-2026/event/210064FFCEBA6C44",
+   "type": "concert"
   }
  ]
 }
