@@ -1488,6 +1488,63 @@
    "time": "19:30:00",
    "url": "https://www.ticketmaster.com/311-saint-louis-missouri-11-11-2026/event/210064FFCEBA6C44",
    "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Tone Bell & Friends",
+   "date": "2026-11-12",
+   "time": "19:00",
+   "url": "https://www.etix.com/ticket/p/99797066/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Flyover Comedy Festival 2026 Presents: David Cross",
+   "date": "2026-11-12",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/flyover-comedy-festival-2026-presents-david-saint-louis-missouri-11-12-2026/event/060064A89D62C82E",
+   "type": "arts"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Carter Faith – Cherry Valley Forever Tour",
+   "date": "2026-11-12",
+   "time": "19:30",
+   "url": "https://oldrockhouse.com/event/carter-faith-cherry-valley-forever-tour/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Cheap Trick: All Washed Up Tour",
+   "date": "2026-11-12",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/cheap-trick-all-washed-up-tour-saint-louis-missouri-11-12-2026/event/210064EE50D22EE6",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Liana Flores",
+   "date": "2026-11-12",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/liana-flores-12-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Chicks in the Office - Just Between Us Tour",
+   "date": "2026-11-12",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/chicks-in-the-office-just-between-saint-louis-missouri-11-12-2026/event/06006528D1744AF4",
+   "age21": true,
+   "type": "arts"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Reggie Conquest & Friends",
+   "date": "2026-11-12",
+   "time": "21:00",
+   "url": "https://www.etix.com/ticket/p/88261523/",
+   "type": "concert"
   }
  ]
 }
