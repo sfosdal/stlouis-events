@@ -1545,6 +1545,94 @@
    "time": "21:00",
    "url": "https://www.etix.com/ticket/p/88261523/",
    "type": "concert"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Midwinter – Haunt Me Forever Tour",
+   "date": "2026-11-13",
+   "time": "19:00",
+   "url": "https://oldrockhouse.com/event/midwinter-haunt-me-forever-tour/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Cameron Esposito",
+   "date": "2026-11-13",
+   "time": "19:00",
+   "url": "https://www.etix.com/ticket/p/64004299/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "The Amity Affliction: Houses Of Cards 2026",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/the-amity-affliction-houses-of-cards-saint-louis-missouri-11-13-2026/event/060064E6CCEBB814",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Flyover Comedy Festival 2026 Presents: Yakov Smirnoff",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/flyover-comedy-festival-2026-presents-yakov-saint-louis-missouri-11-13-2026/event/060064F4CB5321D8",
+   "type": "arts"
+  },
+  {
+   "venue": "Family Arena",
+   "title": "Micky Dolenz - 60 Years Of The Monkees",
+   "date": "2026-11-13",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/micky-dolenz-60-years-of-the-saint-charles-missouri-11-13-2026/event/0600644BDF8DE794",
+   "type": "concert"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "A Beautiful Noise",
+   "date": "2026-11-13",
+   "time": "19:30",
+   "url": "https://www.fabulousfox.com/events/detail/a-beautiful-noise",
+   "type": "arts"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Hiss Golden Messenger",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/hiss-golden-messenger-rm-13-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "A Kooky & Spooky Evening - An immersiocve Addams Family pole dance & Variety show",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "url": "https://www.redflagstl.com/shows/a-kooky-spooky-evening-an-immersiocve-addams-family-pole-dance-variety-show-13-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "Blackberry Smoke: 25th Anniversary Tour 2026",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/blackberry-smoke-25th-anniversary-tour-2026-saint-louis-missouri-11-13-2026/event/060064F8D0BE4822",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Scott Bradlee's Postmodern Jukebox - The Future Is Vintage World Tour",
+   "date": "2026-11-13",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/scott-bradlees-postmodern-jukebox-the-future-saint-louis-missouri-11-13-2026/event/210064A4CDB958DA",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Ask a F*ckboy",
+   "date": "2026-11-13",
+   "time": "21:00",
+   "url": "https://www.etix.com/ticket/p/58722896/",
+   "type": "concert"
   }
  ]
 }
