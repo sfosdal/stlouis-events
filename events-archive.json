@@ -1633,6 +1633,118 @@
    "time": "21:00",
    "url": "https://www.etix.com/ticket/p/58722896/",
    "type": "concert"
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "Saint Louis Billikens Women's Basketball vs. Illinois State Redbirds Womens Basketball",
+   "date": "2026-11-14",
+   "time": "13:00:00",
+   "url": "https://www.ticketmaster.com/saint-louis-billikens-womens-basketball-vs-saint-louis-missouri-11-14-2026/event/0600654C3D8C0CDC",
+   "type": "sports"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "A Beautiful Noise",
+   "date": "2026-11-14",
+   "time": "14:00",
+   "url": "https://www.fabulousfox.com/events/detail/a-beautiful-noise",
+   "type": "arts"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "(Early Show) Beyond 30 presents Over 30’s Day Party 4pm-9pm, No Late Nights, No Hangxiety",
+   "date": "2026-11-14",
+   "time": "16:00",
+   "url": "https://www.redflagstl.com/shows/beyond-30-presents-over-30-s-day-party-4pm-9pm-no-late-nights-no-hangxiety-14-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "St. Louis Blues vs. Florida Panthers",
+   "date": "2026-11-14",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/st-louis-blues-vs-florida-panthers-saint-louis-missouri-11-14-2026/event/060064EECE131B52",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "BN+",
+     "STLNHL"
+    ]
+   }
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "Dropout Improv, Presented By Flyover Comedy Festival 2026",
+   "date": "2026-11-14",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/dropout-improv-presented-by-flyover-comedy-saint-louis-missouri-11-14-2026/event/060064F0DE2D3C03",
+   "type": "arts",
+   "status": "cancelled",
+   "statusSince": "2026-11-14T18:57:10.271Z"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Flyover Comedy Festival 2026 Presents: Roy Wood Jr.",
+   "date": "2026-11-14",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/flyover-comedy-festival-2026-presents-roy-saint-louis-missouri-11-14-2026/event/060064EEA05C9D89",
+   "type": "arts"
+  },
+  {
+   "venue": "Family Arena",
+   "title": "Hairball with Special Guest Drew Cagle & The Reputation",
+   "date": "2026-11-14",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/hairball-with-special-guest-drew-cagle-saint-charles-missouri-11-14-2026/event/060064B5E65722AF",
+   "type": "concert"
+  },
+  {
+   "venue": "The Sheldon",
+   "title": "Jon Cleary & The Absolute Monster Gentlemen",
+   "date": "2026-11-14",
+   "time": "20:00",
+   "url": "https://www.thesheldon.org/events/detail/jon-cleary-the-absolute-monster-gentlemen",
+   "type": "arts"
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "Mack Geiger",
+   "date": "2026-11-14",
+   "time": "20:00",
+   "url": "https://www.thehawthornstl.com/tickets/mack-geiger",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "The Jayhawks - Sanctuary Park Tour",
+   "date": "2026-11-14",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/the-jayhawks-sanctuary-park-tour-saint-louis-missouri-11-14-2026/event/060064D0D5D5F91F",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Charles Wesley Godwin - The Christian Name Tour",
+   "date": "2026-11-14",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/charles-wesley-godwin-the-christian-name-saint-louis-missouri-11-14-2026/event/210064B1AC961EBB",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Kenny Gray & More",
+   "date": "2026-11-14",
+   "time": "21:00",
+   "url": "https://www.etix.com/ticket/p/95900056/",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "Late Show: Diwali After Party",
+   "date": "2026-11-14",
+   "time": "23:00",
+   "url": "https://www.redflagstl.com/shows/late-show-diwali-after-party-14-nov",
+   "type": "concert"
   }
  ]
 }
