@@ -1745,6 +1745,95 @@
    "time": "23:00",
    "url": "https://www.redflagstl.com/shows/late-show-diwali-after-party-14-nov",
    "type": "concert"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "A Beautiful Noise",
+   "date": "2026-11-15",
+   "time": "13:00",
+   "url": "https://www.fabulousfox.com/events/detail/a-beautiful-noise",
+   "type": "arts"
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "Saint Louis Billiken Mens Basketball vs. High Point Men's Basketball",
+   "date": "2026-11-15",
+   "time": "14:00:00",
+   "url": "https://www.ticketmaster.com/saint-louis-billiken-mens-basketball-vs-saint-louis-missouri-11-15-2026/event/0600653E3753F8E7",
+   "type": "sports"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Flying House",
+   "date": "2026-11-15",
+   "time": "16:00",
+   "url": "https://www.etix.com/ticket/p/42056362/flying-house-stlouis-blueberry-hill-duck-room",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Libbie Higgins and Friends",
+   "date": "2026-11-15",
+   "time": "18:30",
+   "url": "https://www.etix.com/ticket/p/54117431/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Sheldon",
+   "title": "Sam Grisman Project",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "url": "https://www.thesheldon.org/events/detail/the-sam-grisman-project",
+   "type": "arts"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Steve Poltz",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "url": "https://oldrockhouse.com/event/steve-poltz/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Improvement Movement : Your Perfect Real LIVE '26",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/improvement-movement-your-perfect-real-live-26-15-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "Gravehuffer",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "url": "https://www.redflagstl.com/shows/gravehuffer-15-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Shaun Cassidy - UNWRAPPED: Songs & Stories For The Holidays",
+   "date": "2026-11-15",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/shaun-cassidy-unwrapped-songs-stories-for-saint-louis-missouri-11-15-2026/event/060064EF962AAF60",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "The Afghan Whigs",
+   "date": "2026-11-15",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/the-afghan-whigs-saint-louis-missouri-11-15-2026/event/060064BBD75DC732",
+   "type": "concert"
+  },
+  {
+   "venue": "River City Casino",
+   "title": "38 Special: 50 Year Legacy Tour",
+   "date": "2026-11-15",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/38-special-50-year-legacy-tour-saint-louis-missouri-11-15-2026/event/060064FBCE5D2F75",
+   "age21": true,
+   "type": "concert"
   }
  ]
 }
