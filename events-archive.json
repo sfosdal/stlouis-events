@@ -1834,6 +1834,61 @@
    "url": "https://www.ticketmaster.com/38-special-50-year-legacy-tour-saint-louis-missouri-11-15-2026/event/060064FBCE5D2F75",
    "age21": true,
    "type": "concert"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "Journey",
+   "date": "2026-11-16",
+   "time": "",
+   "url": "https://www.enterprisecenter.com/events/detail/journey-1",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Jason Bonham's Led Zeppelin Evening",
+   "date": "2026-11-16",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/jason-bonhams-led-zeppelin-evening-saint-louis-missouri-11-16-2026/event/2100652B1E4F6A62",
+   "type": "concert"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Welshly Arms",
+   "date": "2026-11-16",
+   "time": "20:00",
+   "url": "https://oldrockhouse.com/event/welshly-arms/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Scoochie Boochie",
+   "date": "2026-11-16",
+   "time": "20:00",
+   "url": "https://www.etix.com/ticket/p/96464713/",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "ADULT. / A Place To Bury Strangers",
+   "date": "2026-11-16",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/adult-a-place-to-bury-strangers-06-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Skilla Baby: The Price of Fame Tour",
+   "date": "2026-11-16",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/skilla-baby-the-price-of-fame-saint-louis-missouri-11-16-2026/event/0600651A94584E0A",
+   "age21": true,
+   "type": "concert",
+   "tickets": {
+    "box": 814,
+    "resale": 4,
+    "checked": "2026-11-16T23:18:58.156Z",
+    "from": 39.5
+   }
   }
  ]
 }
