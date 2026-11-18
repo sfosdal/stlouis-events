@@ -1889,6 +1889,50 @@
     "checked": "2026-11-16T23:18:58.156Z",
     "from": 39.5
    }
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "St. Louis Blues vs. Anaheim Ducks",
+   "date": "2026-11-17",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/st-louis-blues-vs-anaheim-ducks-saint-louis-missouri-11-17-2026/event/060064EECE191B65",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "BN+",
+     "STLNHL"
+    ]
+   }
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Alter Bridge - What Lies Within Tour",
+   "date": "2026-11-17",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/alter-bridge-what-lies-within-tour-saint-louis-missouri-11-17-2026/event/060064B3A56FB06F",
+   "type": "concert"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Little Feat: The Last Farewell Tour",
+   "date": "2026-11-17",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/little-feat-the-last-farewell-tour-saint-louis-missouri-11-17-2026/event/2100648FD3D92DD5",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "almost monday - Thank God Its Almost Monday",
+   "date": "2026-11-17",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/almost-monday-thank-god-its-almost-saint-louis-missouri-11-17-2026/event/060064D2E28C51B5",
+   "type": "concert",
+   "tickets": {
+    "box": 44,
+    "resale": 17,
+    "checked": "2026-11-16T23:24:55.388Z",
+    "from": 25
+   }
   }
  ]
 }
