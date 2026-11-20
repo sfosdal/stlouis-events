@@ -1957,6 +1957,50 @@
    "time": "20:00",
    "url": "https://www.etix.com/ticket/p/67016520/",
    "type": "concert"
+  },
+  {
+   "venue": "Family Arena",
+   "title": "Sugarland: Ride or Die Tour",
+   "date": "2026-11-19",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/sugarland-ride-or-die-tour-saint-charles-missouri-11-19-2026/event/06006507E069F1FC",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:21:27.027Z",
+    "from": 37.05
+   }
+  },
+  {
+   "venue": "The Sheldon",
+   "title": "SLSO Live at The Sheldon: Radiance",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "url": "https://www.thesheldon.org/events/detail/slso-live-at-the-sheldon",
+   "type": "arts"
+  },
+  {
+   "venue": "The Factory",
+   "title": "The Orchestra Starring Elo Former Members",
+   "date": "2026-11-19",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/the-orchestra-starring-elo-former-members-saint-louis-missouri-11-19-2026/event/210064E2FED554F4",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:21:47.167Z",
+    "from": 52.6
+   }
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Ethan Regan - Young Regan Tour",
+   "date": "2026-11-19",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/ethan-regan-young-regan-tour-19-nov",
+   "type": "concert"
   }
  ]
 }
