@@ -2001,6 +2001,74 @@
    "time": "20:00",
    "url": "https://www.offbroadwaystl.com/shows/ethan-regan-young-regan-tour-19-nov",
    "type": "concert"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "Grown & Sexy Friday",
+   "date": "2026-11-20",
+   "time": "19:30",
+   "url": "https://www.redflagstl.com/shows/grown-sexy-friday-20-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Victor Wooten & The Wooten Brothers",
+   "date": "2026-11-20",
+   "time": "20:00",
+   "url": "https://oldrockhouse.com/event/victor-wooten-the-wooten-brothers/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Foghat",
+   "date": "2026-11-20",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/foghat-saint-louis-missouri-11-20-2026/event/060065049E639B7C",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:35:56.283Z",
+    "from": 38.5
+   }
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Ax and the Hatchetmen: The Late Checkout Tour 2026",
+   "date": "2026-11-20",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/ax-and-the-hatchetmen-the-late-saint-louis-missouri-11-20-2026/event/060064ABB2AFE7AA",
+   "type": "concert",
+   "tickets": {
+    "box": 0,
+    "resale": 47,
+    "checked": "2026-11-17T00:35:59.204Z",
+    "from": 61
+   },
+   "soldOut": true
+  },
+  {
+   "venue": "The Factory",
+   "title": "GenX Takeover Comedy Tour",
+   "date": "2026-11-20",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/genx-takeover-comedy-tour-saint-louis-missouri-11-20-2026/event/21006453E0773C27",
+   "type": "arts"
+  },
+  {
+   "venue": "River City Casino",
+   "title": "Jay Leno",
+   "date": "2026-11-20",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/jay-leno-saint-louis-missouri-11-20-2026/event/060064B4C068E88B",
+   "age21": true,
+   "type": "arts",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T00:36:39.493Z",
+    "from": 115.13
+   }
   }
  ]
 }
