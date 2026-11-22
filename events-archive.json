@@ -2069,6 +2069,148 @@
     "checked": "2026-11-17T00:36:39.493Z",
     "from": 115.13
    }
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Leanne Morgan",
+   "date": "2026-11-21",
+   "time": "16:00",
+   "url": "https://www.fabulousfox.com/events/detail/leanne-morgan",
+   "type": "arts"
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "The Musial Awards® presented by Maryville University",
+   "date": "2026-11-21",
+   "time": "17:30:00",
+   "url": "https://www.ticketmaster.com/the-musial-awards-presented-by-maryville-saint-louis-missouri-11-21-2026/event/060064DEAE9FBE45",
+   "type": "sports"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "St. Louis Blues vs. New Jersey Devils",
+   "date": "2026-11-21",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/st-louis-blues-vs-new-jersey-saint-louis-missouri-11-21-2026/event/060064EECE1E1B74",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "BN+",
+     "STLNHL"
+    ]
+   },
+   "tickets": {
+    "box": 0,
+    "resale": 0,
+    "checked": "2026-11-21T00:49:52.271Z",
+    "from": 44.77
+   },
+   "soldOut": true
+  },
+  {
+   "venue": "Chaifetz Arena",
+   "title": "Saint Louis Billikens Women's Basketball vs. Southeast Missouri State Ladies Basketball",
+   "date": "2026-11-21",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/saint-louis-billikens-womens-basketball-vs-saint-louis-missouri-11-21-2026/event/0600654C3D960CE2",
+   "type": "sports"
+  },
+  {
+   "venue": "Fabulous Fox Theatre",
+   "title": "Leanne Morgan",
+   "date": "2026-11-21",
+   "time": "19:30:00",
+   "url": "https://www.fabulousfox.com/",
+   "type": "arts"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Chat Pile - Who Loves The Sun Tour 2026",
+   "date": "2026-11-21",
+   "time": "19:30:00",
+   "url": "https://www.ticketmaster.com/chat-pile-who-loves-the-sun-saint-louis-missouri-11-21-2026/event/060064C49EAD8693",
+   "type": "concert",
+   "tickets": {
+    "box": 132,
+    "resale": 11,
+    "checked": "2026-11-21T00:49:54.784Z",
+    "from": 30
+   }
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "Matt Jordan with Austin Grimm & Them Gold Souls",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://oldrockhouse.com/event/matt-jordan-with-austin-grimm-them-gold-souls/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Blueberry Hill Duck Room",
+   "title": "Sam Shackleton",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://www.etix.com/ticket/p/64961311/",
+   "type": "concert"
+  },
+  {
+   "venue": "Off Broadway",
+   "title": "Kingdom of Giants",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "url": "https://www.offbroadwaystl.com/shows/kingdom-of-giants-21-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Jake's Leg - Celebrating 50 Years of STL-Based Deadication",
+   "date": "2026-11-21",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/jakes-leg-celebrating-50-years-of-saint-louis-missouri-11-21-2026/event/0600651AB8F28B3D",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-21T00:50:14.968Z",
+    "from": 9.9
+   }
+  },
+  {
+   "venue": "The Factory",
+   "title": "Brian Kilmeade",
+   "date": "2026-11-21",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/brian-kilmeade-saint-louis-missouri-11-21-2026/event/21006470ED464133",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T01:05:52.593Z",
+    "from": 44.25
+   }
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "R&B Only Live - St. Louis, MO",
+   "date": "2026-11-21",
+   "time": "20:00:00",
+   "url": "https://www.universe.com/events/r-b-only-live-st-louis-mo-tickets-R0WX1J?ref=ticketmaster",
+   "type": "concert"
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "R&B Only - 18+",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "url": "https://www.thehawthornstl.com/tickets/rb-only-112126",
+   "type": "concert"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "Traffic Light Jam Kickoff",
+   "date": "2026-11-21",
+   "time": "21:00",
+   "url": "https://www.redflagstl.com/shows/traffic-light-jam-kickoff-21-nov",
+   "type": "concert"
   }
  ]
 }
