@@ -2211,6 +2211,68 @@
    "time": "21:00",
    "url": "https://www.redflagstl.com/shows/traffic-light-jam-kickoff-21-nov",
    "type": "concert"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "St. Louis Blues vs. Edmonton Oilers",
+   "date": "2026-11-22",
+   "time": "18:00:00",
+   "url": "https://www.ticketmaster.com/st-louis-blues-vs-edmonton-oilers-saint-louis-missouri-11-22-2026/event/060064EECE241B7A",
+   "type": "sports",
+   "watch": {
+    "tv": [
+     "SNW",
+     "SN1",
+     "BN+",
+     "STLNHL"
+    ]
+   },
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T01:23:42.944Z",
+    "from": 62.15
+   }
+  },
+  {
+   "venue": "Stifel Theatre",
+   "title": "Je'Caryous Johnson Presents \"Set It Off\"",
+   "date": "2026-11-22",
+   "time": "18:30:00",
+   "url": "https://www.ticketmaster.com/jecaryous-johnson-presents-set-it-off-saint-louis-missouri-11-22-2026/event/06006453C367615F",
+   "type": "arts",
+   "status": "cancelled",
+   "statusSince": "2026-10-12T01:47:14.047Z"
+  },
+  {
+   "venue": "The Sheldon",
+   "title": "In This Moment: All-Star Chorus Fall Concert",
+   "date": "2026-11-22",
+   "time": "19:00",
+   "url": "https://www.thesheldon.org/events/detail/all-star-choir-fall-choir",
+   "type": "arts"
+  },
+  {
+   "venue": "Red Flag",
+   "title": "VonOff1700",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "url": "https://www.redflagstl.com/shows/vonoff1700-tg4ltour-22-nov",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "Dweezil Zappa DZ20: Like Father, Like Son",
+   "date": "2026-11-22",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/dweezil-zappa-dz20-like-father-like-saint-louis-missouri-11-22-2026/event/060064BAA7FC86B0",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-17T01:24:23.290Z",
+    "from": 72
+   }
   }
  ]
 }
