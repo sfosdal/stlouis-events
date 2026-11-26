@@ -2294,6 +2294,72 @@
    "time": "19:30",
    "url": "https://www.offbroadwaystl.com/shows/oso-oso-24-nov",
    "type": "concert"
+  },
+  {
+   "venue": "Enterprise Center",
+   "title": "Budweiser Guns 'n Hoses",
+   "date": "2026-11-25",
+   "time": "17:00:00",
+   "url": "https://www.ticketmaster.com/budweiser-guns-n-hoses-saint-louis-missouri-11-25-2026/event/060064E7A7B78D86",
+   "type": "sports"
+  },
+  {
+   "venue": "The Factory",
+   "title": "Trivium: Crown In The Grave World Tour",
+   "date": "2026-11-25",
+   "time": "18:35:00",
+   "url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-saint-louis-missouri-11-25-2026/event/210064EE501D2E87",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-23T00:42:13.836Z",
+    "from": 57.95
+   }
+  },
+  {
+   "venue": "Old Rock House",
+   "title": "All Together Now: Beatles Tribute",
+   "date": "2026-11-25",
+   "time": "19:00",
+   "url": "https://oldrockhouse.com/event/all-together-now-beatles-tribute/old-rock-house/st.-louis-missouri/",
+   "type": "concert"
+  },
+  {
+   "venue": "Delmar Hall",
+   "title": "Playadors",
+   "date": "2026-11-25",
+   "time": "19:00:00",
+   "url": "https://www.ticketmaster.com/playadors-saint-louis-missouri-11-25-2026/event/06006548D8B9F641",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-23T00:42:33.968Z",
+    "from": 26.8
+   }
+  },
+  {
+   "venue": "The Hawthorn",
+   "title": "Hawthorne Heights - 20th anniversary of If Only You Were Lonely",
+   "date": "2026-11-25",
+   "time": "20:00",
+   "url": "https://www.thehawthornstl.com/tickets/hawthorne-heights",
+   "type": "concert"
+  },
+  {
+   "venue": "The Pageant",
+   "title": "My Posse In Effect - A Live Tribute To The Beastie Boys",
+   "date": "2026-11-25",
+   "time": "20:00:00",
+   "url": "https://www.ticketmaster.com/my-posse-in-effect-a-live-saint-louis-missouri-11-25-2026/event/0600650B99B4696B",
+   "type": "concert",
+   "tickets": {
+    "box": null,
+    "resale": 0,
+    "checked": "2026-11-23T00:42:54.023Z",
+    "from": 32.6
+   }
   }
  ]
 }
